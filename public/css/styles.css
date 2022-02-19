@@ -41,7 +41,9 @@ font-size: large;
         width: 100%;
         height: 100%;
         margin: 0px;
+        margin-right: 87%;
     }
+    
     .row{
         background-color:#1560bd;
     }
@@ -53,6 +55,19 @@ font-size: large;
           .row a.icon {
             float: right;
             display: block;
+            position: relative;
+            bottom: 65%;
+            margin-right: 40px;
+          
+          }
+          .row .img{
+              margin: 0px;
+              position: relative;
+bottom: 60%;
+right: 5%;
+          }
+          #logo{
+              height: 100px;
           }
     }
     @media only screen and (max-width: 768px) {
@@ -95,6 +110,7 @@ font-size: large;
           img{
             width: 100px;
             height: 100px;
+
         }
         .row .responsive .icon{
             position: absolute;

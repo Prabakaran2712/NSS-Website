@@ -17,10 +17,11 @@
     <div class="row" id="topnav">
         <div class="col" id="logo" style="padding: 0px;">
             <img  src="public\img\logo.png"> 
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars" style="color:white"></i>
   </a>
+        </div>
+       
         <div class="col-sm-4">
             
             </div>
