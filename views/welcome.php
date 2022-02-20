@@ -1,4 +1,4 @@
-<div style="width:100%;;margin:0px;padding:0px;height:100%;">
+<div style="width:100%;;margin-bottom:0px;padding:0px;height:100%;">
   <div style="height:30px;">
   <marquee width="100%" direction="right" height="30px" style="background-color:white;">
   <center>
@@ -17,7 +17,7 @@
     </marquee>
   </div>
     <div class="col-sm-12" style="height:280px;padding-left:50px;">
-      <img id="wel" src="public/img/welbg.png" alt="Aleq">
+      <img id="wel" src="public/img/3.jpg" alt="Aleq">
       <center>
       <p style="font-size:25px;padding-top:45px;" id="msg">WELCOME</p>
       <p style="font-size:25px;" id="msg">TO</p>

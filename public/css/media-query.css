@@ -1,0 +1,156 @@
+/* Big tablets to smaller laptop screens*/
+@media only screen and (max-width:1200px) {
+	
+    .about-para {
+		margin-bottom:20px;
+	}
+    
+	.section-heading,
+	.query-heading {
+		margin-top:90px;
+	}
+    .slide-show{        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .laptop-image {
+		padding-right:5%;
+	}
+    .eve-act-box{
+        margin-left: 10px;
+    }
+    .eve-act-box div{
+	   padding: 10px;
+    }
+}
+
+/* Smaller tablets to larger tablet screens*/
+@media only screen and (max-width:1023px) {
+	
+	 
+    
+    .about-box {
+		margin-top:60px;
+	}
+
+	.about-box:first-child {
+		padding:0;
+		padding-left:5%;
+	}
+
+	.laptop-image {
+		padding-right:5%;
+	}
+
+    .awards-para{
+        margin-bottom: 10px;
+    }
+    .slide-show{        
+        margin-left: auto;            
+    }
+    .awards-box{
+	   margin-top: 50px;
+    }    
+    .awards-image{
+        margin-top: 70px;
+    }
+    .query-section{
+	   margin-right: auto
+    }    
+    input[type=text],textarea{
+        width: 100%;
+    }      
+}
+
+/* larger phones  to smaller tablet screens*/
+@media only screen and (max-width:767px) {
+	
+
+	.section-heading,
+	.query-heading {
+		margin-top:60px;
+	}
+    .about-heading {
+		margin-bottom:20px;
+	}
+	.section-heading {
+		margin-bottom:10px;
+	}
+
+	.section-sub-heading:after {
+		margin:15px auto 0 auto;
+	}
+    .awards-para{
+        margin-bottom: 10px;
+    }
+    .slide-show{        
+        margin-left: auto;
+            
+    }
+    .awards-box{
+	   margin-top: 50px;
+    }    
+    .awards-image{
+        margin-top: 90px;
+    }
+    .query-section{
+	   margin-right: 200px;
+    }
+    input[type=text],textarea{
+        width: 250%;
+    }
+    
+}
+
+/* smaller to larger mobile phones*/
+@media only screen and (max-width:480px) {
+    .laptop-image {
+		padding:0;
+		margin:0 auto;
+	}
+    .awards-image{
+        margin: 0 auto;
+    }
+    .awards-box:last-child {
+		text-align:center;
+	}
+
+	.about-box:last-child {
+		text-align:center;
+	}
+
+	.about-box:first-child {
+		text-align:center;
+	}
+
+	.span_1_of_4 {
+		width:50%;
+		margin-bottom:20px;
+	}
+    
+	.query-form {
+		width:100%;
+	}
+
+	.query-label {
+		padding-left:0;
+	}      
+    .awards-para{
+        color: #555;
+        margin-bottom: 10px;
+    }
+    .slide-show{        
+        margin-left: auto;
+            
+    }
+    .awards-box{
+	   margin-top: 50px;
+    }
+    .query-section{
+	   margin-right: 0px;
+    }
+    input[type=text],textarea{
+        width: 100%;
+    }    
+
+}
