@@ -35,3 +35,4 @@ for (var i = 0; i < all.length; i++) {
 
 }
   window.addEventListener('resize',check);
+ 

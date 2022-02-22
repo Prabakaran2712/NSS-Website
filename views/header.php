@@ -32,9 +32,14 @@
             <link href="https://cdn.syncfusion.com/ej2/ej2-calendars/styles/material.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.syncfusion.com/ej2/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
     <title>National Service Scheme</title>
+    
 </head>
 <body>
-    <header>
+    <header id="h">
+    <div class="header" style="margin-top: -5px;">
+  <h2></h2>
+  
+</div>
     <div class="row" id="topnav">
         <div class="col" id="logo" style="padding: 0px;">
             <img  src="public\img\logo.png">
@@ -74,3 +79,19 @@
     </div>
 
     </header>
+    <script>
+         window.onscroll = function() {stickynav()};
+
+var navbar = document.getElementById("topnav");
+var sticky = navbar.offsetTop;
+
+function stickynav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+    document.getElementById("h").style.marginBottom="100px";
+  } else {
+    navbar.classList.remove("sticky");
+    document.getElementById("h").style.marginBottom="100px";
+  }
+}
+    </script>

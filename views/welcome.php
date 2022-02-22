@@ -1,6 +1,6 @@
 <div style="width:100%;;margin:0px;padding:0px;height:auto;background-color:white;">
   <div style="height:30px;">
-  <marquee width="100%" direction="right" height="30px" style="background-color:white;">
+  <marquee class="news-content" width="100%" direction="right" height="30px" style="background-color:white;">
   <center>
   <?php
     include 'config.php';

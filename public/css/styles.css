@@ -140,3 +140,13 @@ right: 5%;
   }
 
     }
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+
+    }
+    #topnav{
+      z-index: 1;
+    }
+   
