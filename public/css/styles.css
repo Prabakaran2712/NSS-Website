@@ -2,13 +2,13 @@
     margin: 0px;
     color: aliceblue;
 }
-body {
-    height:100%;
+ body {
+    height:auto;
 }
 .row{
     margin: 0px 0px;
     height: 100px;
-    width: auto;
+    width: 100%;
     font-size:20px;
 
 }

@@ -12,6 +12,21 @@
   padding:10px;
 }
 
+.links{
+  color:white;
+}
+
+#desp{
+  color:black;
+  font-size:15px;
+}
+
+#poster{
+  height:220px;
+  width:100%;
+  padding:10px;
+}
+
 #element{
   width:1000px;
 }
