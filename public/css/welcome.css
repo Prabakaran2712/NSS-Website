@@ -1,0 +1,73 @@
+.event {
+  width: 100%;
+  height: 45px;
+  background-color: lightblue;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-fill-mode:both;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction:alternate;
+  padding:10px;
+}
+
+.links{
+  color:white;
+}
+
+#desp{
+  color:black;
+  font-size:15px;
+}
+
+#poster{
+  height:220px;
+  width:100%;
+  padding:10px;
+}
+
+#element{
+  width:1000px;
+}
+
+span{
+  color:black;
+  font-size:16px;
+  padding:10px;
+}
+
+@keyframes example {
+  from{transform:translateX(0px)}
+  to{transform:translateX(400px)}
+}
+
+#msg{
+  color:white;
+  position:relative;
+}
+
+#ename{
+    font-size:20px;
+    color:red;
+    padding-top:10px;
+    padding-left:40px;
+}
+
+#wel {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      width: 100%;
+      height: 280px;
+      background-position: center;
+      background-repeat: no-repeat;
+/*       background-size: cover; */
+      -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+      filter: blur(1px);
+}
+
+#wel:hover{
+
+}
