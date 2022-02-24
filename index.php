@@ -1,9 +1,8 @@
 <?php include 'views/header.php'?>
-<?php if(false): ?>
-    <?php include 'views/welcome.php'?>
-    <?php include 'views/history.php'?>
-    <?php include 'views/activities.php'?>
-    <?php include 'views/awards.php'?>
-    <?php include 'views/query.php'?>
-<?php endif ?>
+<?php include 'views/welcome.php'?>
+<?php include 'views/history.php'?>
+<?php include 'views/activities.php'?>
+<?php include 'views/awards.php'?>
+<?php include 'views/query.php'?>
 <?php include 'views/footer.php'?>
+

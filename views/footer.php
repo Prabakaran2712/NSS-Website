@@ -1,14 +1,14 @@
 <!-- Footer -->
-<footer style="height:auto;">
+<footer class="col-sm-12" style="height:auto;width:100%;">
 
   <!-- Footer Links -->
   <div class="text-center text-md-left">
 
     <!-- Grid row -->
-    <div class="row" style="height:auto;">
+    <div class="row" style="height:auto;width:auto;">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-sm-3" style="padding:0px;">
 
         <!-- Links -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="font-size:20px;color:black;">About Us</h5>
@@ -34,7 +34,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-sm-3" style="padding:0px;">
 
         <!-- Links -->
 
@@ -44,7 +44,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-sm-3" style="padding:0px;">
 
       </div>
       <!-- Grid column -->
@@ -52,7 +52,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-sm-3" style="padding:0px;">
 
         <!-- Links -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="font-size:20px;color:black;">Contact details:</h5>

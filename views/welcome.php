@@ -1,3 +1,4 @@
+
 <div style="width:100%;;margin:0px;padding:0px;height:auto;background-color:white;" id="bgimg">
   
     <div class="col-sm-12" style="height:280px;padding-left:50px; background-image:url(public/img/3.jpg);float:none">
@@ -8,6 +9,7 @@
       <p style="font-size:30px;color:white;">NATIONAL SERVICE SCHEME</p>
       </center>
   </div>
+
   <div style="height:30px;">
   <div class="events" style="display: flex;">
   <div class="event-name" style="width: 100px; background-color:#303983">
@@ -28,6 +30,15 @@
   </center>
     </marquee>
   </div>
+
+    <div class="col-sm-12" style="height:280px;padding-left:50px;">
+      <img id="wel" src="public/img/3.jpg" alt="Aleq">
+      <center>
+      <p style="font-size:25px;padding-top:45px;" id="msg">WELCOME</p>
+      <p style="font-size:25px;" id="msg">TO</p>
+      <p style="font-size:30px;color:white;">NATIONAL SERVICE SCHEME</p>
+      </center>
+
   </div>
   <div class="col-sm-3" style="background-color:white;height:200px;">
       <?php
