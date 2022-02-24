@@ -6,7 +6,7 @@ function myFunction() {
 for (var i = 0; i < all.length; i++) {
   all[i].style.display ='block';
 }
-    
+
     } else {
       x.className = "row";
       var all = document.getElementsByClassName('col');
@@ -15,7 +15,7 @@ for (var i = 0; i < all.length; i++) {
       }
       var z=document.getElementById('logo');
       z.style.display='block';
-      
+
     }
   }
   function check(){
@@ -23,7 +23,9 @@ for (var i = 0; i < all.length; i++) {
         var all = document.getElementsByClassName('col');
       for (var i = 0; i < all.length; i++) {
         all[i].style.display ='block';
-  }}
+  }
+  
+}
   else{
     var all = document.getElementsByClassName('col');
     for (var i = 0; i < all.length; i++) {
@@ -31,7 +33,9 @@ for (var i = 0; i < all.length; i++) {
     }
     var z=document.getElementById('logo');
     z.style.display='block';
+    
   }
 
 }
   window.addEventListener('resize',check);
+ 

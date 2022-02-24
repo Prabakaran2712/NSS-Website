@@ -23,17 +23,15 @@
     background-color:#e53624;
 }
 
+
 #navelements{
     width:90px;
     border-radius:5px;
 }
 
+
 #dropmenu{
     background-color:#303983;
 }
 
-.dropdown-menu>li>a:hover{
-    background: color #e53624;
-}
-    
-    
+
