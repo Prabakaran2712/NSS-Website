@@ -1,11 +1,17 @@
-.accent-bg-color{
+.accent-bg-color, .accent-color{
     background-color: #303983;
 }
-.accent-color{
-    color: #303983;
-}
+
 .custom-nav-dropdown-color{
     background-color: #6b73b2;
+}
+
+.dropdown-item:hover{
+    background-color: red;
+}
+
+.nav-link{
+    color: white !important;
 }
 
 .only-large {
@@ -16,13 +22,13 @@
     display: none;
 }
  
- @media (min-width:768px) {
+ @media (min-width:992px) {
     .only-large{
        display: block;
     }
  }
 
- @media (max-width:768px) {
+ @media (max-width:992px) {
     .only-small{
        display: block;
     }
