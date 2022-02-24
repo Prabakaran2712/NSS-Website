@@ -17,20 +17,42 @@
     height:auto;
     width:150px;
     font-size:12px;
+
+    
+}
+
+#navlinks {
+    color:whitesmoke;
+}
+
+#topnav :active{
+    color:black;
+}
+#topnav :hover{
+    color:black;
 }
 
 #droplist :hover{
     background-color:#e53624;
+    color: black;
 }
 
 #navelements{
     width:90px;
     border-radius:5px;
+
 }
+
 
 #dropmenu{
     background-color:#303983;
+    color:white;
 }
+
+#topnav{
+    font-size: 15px;
+}
+
 
     
     
