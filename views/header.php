@@ -53,11 +53,11 @@
     <div class="row text-uppercase text-center">
       <div class="col only-large">
         <h5 id="title">Madras Institute of Technology</h5>
-        <h5 id="title">National Service Scheme</h5>
+        <h5 id="title" style="color: #303983;">National Service Scheme</h5>
       </div>
       <div class="only-small">
         <h5 id="title">MIT</h5>
-        <h5 id="title">NSS</h5>
+        <h5 id="title" style="color: #303983;">NSS</h5>
       </div>
     </div>
     </div>
@@ -73,34 +73,34 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left:0px;">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color:red;font-size:15px;">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left:30px;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="topnav" style="color:red;">
         <li class="nav-item me-3" id="navelements">
-          <a class="nav-link" aria-current="page" href="#" style="text-align:center;">Home</a>
+          <a class="nav-link" aria-current="page" href="#" id="navlinks" >Home</a>
         </li>
         <li class="nav-item me-3" id="navelements">
-          <a class="nav-link" href="#" style="text-align:center;">History</a>
+          <a class="nav-link" href="#" id="navlinks">History</a>
         </li>
         <li class="nav-item dropdown me-3" id="navelements">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-align:center;">
+          <a class="nav-link dropdown-toggle" href="#" id="navlinks" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             People
           </a>
           <ul class="dropdown-menu custom-nav-dropdown-color" id="droplist" aria-labelledby="navbarDropdown">
-            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="text-align:center;color:red;">Volunteers</a></li>
-            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="text-align:center;color:red;">Office Bearers</a></li>
-            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="text-align:center;color:red;">Program Officers</a></li>
+            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="color:white;" >Volunteers</a></li>
+            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="color:white;">Office Bearers</a></li>
+            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="color:white;">Program Officers</a></li>
           </ul>
         </li>
         <li class="nav-item me-3" id="navelements">
-          <a class="nav-link" href="#" style="text-align:center;">Awards</a>
+          <a class="nav-link" href="#" id="navlinks" >Awards</a>
         </li>
         <li class="nav-item dropdown" id="navelements">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-align:center;">
+          <a class="nav-link dropdown-toggle" href="#" id="navlinks" role="button" data-bs-toggle="dropdown" aria-expanded="false"  >
             Activities
           </a>
           <ul class="dropdown-menu custom-nav-dropdown-color" id="droplist" aria-labelledby="navbarDropdown">
-            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="text-align:center;color:red;">Session</a></li>
-            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="text-align:center;color:black;">Upcoming Activites</a></li>
+            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="color:white;">Session</a></li>
+            <li id="dropmenu"><a class="dropdown-item text-light" href="#" style="color:white;">Upcoming Activites</a></li>
           </ul>
         </li>
       </ul>      
