@@ -1,14 +1,14 @@
 <!-- Footer -->
-<footer style="height:auto;">
+<footer class="col-sm-12" style="height:auto;width:100%;">
 
   <!-- Footer Links -->
   <div class="text-center text-md-left">
 
     <!-- Grid row -->
-    <div class="row" style="height:auto;">
+    <div class="row" style="height:auto;width:auto;">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-sm-3" style="padding:0px;">
 
         <!-- Links -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="font-size:20px;color:black;">About Us</h5>
@@ -34,7 +34,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-sm-3" style="padding:0px;">
 
         <!-- Links -->
 
@@ -44,7 +44,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-sm-3" style="padding:0px;">
 
       </div>
       <!-- Grid column -->
@@ -52,7 +52,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-3 mx-auto">
+      <div class="col-sm-3" style="padding:0px;">
 
         <!-- Links -->
         <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="font-size:20px;color:black;">Contact details:</h5>
@@ -83,5 +83,9 @@ Chromepet, Chennai 600044</a>
 </footer>
 <!-- Footer -->
 
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-  </html>
+</html>
