@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="public/css/awards.css">
     <link rel="stylesheet" href="public/css/query.css">
     <link rel="stylesheet" href="public/css/styles.css">
-
+    <link rel="stylesheet" href="public/css/volunteers.css">
     <!-- title -->
     <title>National Service Scheme</title>
 
