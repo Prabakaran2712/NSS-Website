@@ -15,7 +15,7 @@
 <div class="row">
 <div class="col-sm-4" style="margin-left:20px; margin-right: 20px;">
 <div class="container p-3 my-3 border">
-<h2 style="text-align:center;color:black">Academic Year</h2>
+<h2 style="text-align:center;color:black">Select Academic Year</h2>
 <hr style="width:80%;color:black;margin-left: auto; margin-right: auto;">
 <div class="d-flex justify-content-center">
 <select class="form-select" aria-label="Select-year" id="select-year" name="select-year" onchange="selectyear()">
@@ -38,6 +38,7 @@
 <button class="tablink" onclick="openPage('unit6', this, 'white')">Unit 6</button>
 <button class="tablink" onclick="openPage('unit7', this, 'white')">Unit 7</button>
 <div id="unit1" class="tabcontent">
+<h3 style="text-align:center;color:black;">Unit 1 Volunteers</h3><br>
   <table>
     <tr>
     <th style="text-align:center;">S. No</th>
@@ -45,10 +46,10 @@
     <th style="text-align:center;">Register Number </th>
   </tr>
   <?php 
-  include "conn.php";
+  include "views/config.php";
   $year=2020;
   $sql="select * from unit_1_".$year; 
-  $result=mysqli_query($conn,$sql);
+  $result=mysqli_query($con,$sql);
   if(mysqli_num_rows($result)>0)
   {
     while($row=mysqli_fetch_assoc($result))
@@ -60,6 +61,7 @@
 </div>
 
 <div id="unit2" class="tabcontent">
+<h3 style="text-align:center;color:black;">Unit 2 Volunteers</h3><br>
   <table>
     <tr>
     <th style="text-align:center;">S. No</th>
@@ -67,10 +69,10 @@
     <th style="text-align:center;">Register Number </th>
   </tr>
   <?php 
-  include "conn.php";
+  include "views/config.php";
   $year=2020;
   $sql="select * from unit_2_".$year; 
-  $result=mysqli_query($conn,$sql);
+  $result=mysqli_query($con,$sql);
   if(mysqli_num_rows($result)>0)
   {
     while($row=mysqli_fetch_assoc($result))
@@ -82,6 +84,7 @@
 </div>
 
 <div id="unit3" class="tabcontent">
+<h3 style="text-align:center;color:black;">Unit 3 Volunteers</h3><br>
   <table>
     <tr>
     <th style="text-align:center;">S. No</th>
@@ -89,10 +92,10 @@
     <th style="text-align:center;">Register Number </th>
   </tr>
   <?php 
-  include "conn.php";
+  include "views/config.php";
   $year=2020;
   $sql="select * from unit_3_".$year; 
-  $result=mysqli_query($conn,$sql);
+  $result=mysqli_query($con,$sql);
   if(mysqli_num_rows($result)>0)
   {
     while($row=mysqli_fetch_assoc($result))
@@ -104,6 +107,7 @@
 </div>
 
 <div id="unit4" class="tabcontent">
+<h3 style="text-align:center;color:black;">Unit 4 Volunteers</h3><br>
   <table>
     <tr>
     <th style="text-align:center;">S. No</th>
@@ -111,10 +115,10 @@
     <th style="text-align:center;">Register Number </th>
   </tr>
   <?php 
-  include "conn.php";
+  include "views/config.php";
   $year=2020;
   $sql="select * from unit_4_".$year; 
-  $result=mysqli_query($conn,$sql);
+  $result=mysqli_query($con,$sql);
   if(mysqli_num_rows($result)>0)
   {
     while($row=mysqli_fetch_assoc($result))
@@ -126,6 +130,7 @@
 </div>
 
 <div id="unit5" class="tabcontent">
+<h3 style="text-align:center;color:black;">Unit 5 Volunteers</h3><br>
   <table>
     <tr>
     <th style="text-align:center;">S. No</th>
@@ -133,10 +138,10 @@
     <th style="text-align:center;">Register Number </th>
   </tr>
   <?php 
-  include "conn.php";
+  include "views/config.php";
   $year=2020;
   $sql="select * from unit_5_".$year; 
-  $result=mysqli_query($conn,$sql);
+  $result=mysqli_query($con,$sql);
   if(mysqli_num_rows($result)>0)
   {
     while($row=mysqli_fetch_assoc($result))
@@ -148,6 +153,7 @@
 </div>
 
 <div id="unit6" class="tabcontent">
+<h3 style="text-align:center;color:black;">Unit 6 Volunteers</h3><br>
   <table>
     <tr>
     <th style="text-align:center;">S. No</th>
@@ -155,10 +161,10 @@
     <th style="text-align:center;">Register Number </th>
   </tr>
   <?php 
-  include "conn.php";
+  include "views/config.php";
   $year=2020;
   $sql="select * from unit_6_".$year; 
-  $result=mysqli_query($conn,$sql);
+  $result=mysqli_query($con,$sql);
   if(mysqli_num_rows($result)>0)
   {
     while($row=mysqli_fetch_assoc($result))
@@ -170,6 +176,7 @@
 </div>
 
 <div id="unit7" class="tabcontent">
+  <h3 style="text-align:center;color:black;">Unit 7 Volunteers</h3><br>
   <table>
     <tr>
     <th style="text-align:center;">S. No</th>
@@ -177,10 +184,10 @@
     <th style="text-align:center;">Register Number </th>
   </tr>
   <?php 
-  include "conn.php";
+   include "views/config.php";
   $year=2020;
   $sql="select * from unit_7_".$year; 
-  $result=mysqli_query($conn,$sql);
+  $result=mysqli_query($con,$sql);
   if(mysqli_num_rows($result)>0)
   {
     while($row=mysqli_fetch_assoc($result))
