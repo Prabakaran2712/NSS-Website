@@ -68,7 +68,7 @@
     </div>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark accent-bg-color">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark accent-bg-color">
       <div class="container-fluid">
         <a class="navbar-brand me-5 ms-3" href="#">NSS MIT</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,13 +77,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item me-3">
-              <a class="nav-link" aria-current="page" href="index.php">Home</a>
+              <a class="nav-link text-light" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">History</a>
+              <a class="nav-link text-light" href="#">History</a>
             </li>
             <li class="nav-item dropdown me-3">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 People
               </a>
               <ul class="dropdown-menu custom-nav-dropdown-color" aria-labelledby="navbarDropdown">
@@ -93,10 +93,10 @@
               </ul>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Awards</a>
+              <a class="nav-link text-light" href="#">Awards</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Activites</a>
+              <a class="nav-link text-light" href="#">Activites</a>
             </li>      
         </div>
       </div>
