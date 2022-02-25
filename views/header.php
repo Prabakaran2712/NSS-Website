@@ -87,7 +87,7 @@
                 People
               </a>
               <ul class="dropdown-menu custom-nav-dropdown-color" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item text-light" href="#">Volunteers</a></li>
+                <li><a class="dropdown-item text-light" href="volunteers.php">Volunteers</a></li>
                 <li><a class="dropdown-item text-light" href="#">Office Bearers</a></li>
                 <li><a class="dropdown-item text-light" href="./programofficers.php">Program Officers</a></li>
               </ul>
