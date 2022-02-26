@@ -18,7 +18,7 @@ else
     }
 }
 
-$analytics_sql = "SELECT * FROM analytics";
+$analytics_sql = "SELECT * FROM analytics ORDER BY loggedAt DESC";
 $analytics_res = mysqli_query($con, $analytics_sql);
 $analytics = json_encode(mysqli_fetch_all($analytics_res, MYSQLI_ASSOC));
 
