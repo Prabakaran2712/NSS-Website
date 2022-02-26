@@ -1,0 +1,80 @@
+{
+  "finalYears": [
+    { "name": "Anandh P", "reg": "2018509006" },
+    { "name": "Sanduru K", "reg": "2018509053" },
+    { "name": "Arulmani P", "reg": "2018505002" },
+    { "name": "Soundhara Pandiyan K", "reg": "2018503061" },
+    { "name": "Aravind B", "reg": "2018505504" },
+    { "name": "Sherlin P", "reg": "2018506114" },
+    { "name": "Asha S M", "reg": "2018504008" },
+    { "name": "Rajesh L", "reg": "2018502542" },
+    { "name": "Jodheshwaran R", "reg": "2018509026" },
+    { "name": "Muthukumar S", "reg": "2018509041" },
+    { "name": "Anu Karthika N", "reg": "2018506017" },
+    { "name": "Sadheesh N", "reg": "2018503548" }
+  ],
+  "preFinalYears": [
+    { "name": "Akash A", "reg": "2019502004" },
+    { "name": "Ezhilmukhi S", "reg": "2019506029" },
+    { "name": "Gunalan A R", "reg": "2019502521" },
+    { "name": "Priyadharshini B", "reg": "2019504565" },
+    { "name": "Balakumaran J", "reg": "2019502512" },
+    { "name": "Keerthika M", "reg": "2019503023" },
+    { "name": "Rathnam M", "reg": "2019509041" },
+    { "name": "Saravanan K", "reg": "2019502546" },
+    { "name": "Bala Bharathi N", "reg": "2019502006" },
+    { "name": "Deepajothi S K", "reg": "2019504016" },
+    { "name": "Lokesh Aravind R", "reg": "2019502024" },
+    { "name": "R V Prasad", "reg": "2019502034" },
+    { "name": "Gokul R", "reg": "2019506032" },
+    { "name": "Neeraja N", "reg": "2019504040" },
+    { "name": "Veerappan P R", "reg": "2019502551" },
+    { "name": "Yuvan Shankar J", "reg": "2019504609" },
+    { "name": "Kheerthivaasan M", "reg": "2019502529" },
+    { "name": "Maheshwari G", "reg": "2019504545" },
+    { "name": "Mithilesh R", "reg": "2019502027" },
+    { "name": "Rohitvatson R", "reg": "2019502539" },
+    { "name": "Dinesh Kumar S", "reg": "2019502011" },
+    { "name": "Bharath M", "reg": "2019503509" },
+    { "name": "Gayathrisri", "reg": "2019503014" },
+    { "name": "Bharath Avinash S", "reg": "2019502514" },
+    { "name": "Divyadharshini S P", "reg": "2019504020" },
+    { "name": "Harshini A", "reg": "2019505014" },
+    { "name": "Muhilan B", "reg": "2019503535" },
+    { "name": "Netheshbala K", "reg": "2019502534" }
+  ],
+  "eventCoordinators": [
+    { "name": "Gunalan A R", "reg": "2019502521" },
+    { "name": "Maheshwari G", "reg": "2019504545" },
+    { "name": "Bharath M", "reg": "2019503509" },
+    { "name": "Divyasharshini S P", "reg": "2019504020" }
+  ],
+  "treasurer": { "name": "Deepajothi S K", "reg": "2019504016" },
+  "joingTreasurer": { "name": "Lokesh Aravind R", "reg": "2019502024" },
+  "regularActivitiesIncharges": [
+    { "name": "Gunalan A R", "reg": "2019502521" },
+    { "name": "Gokul R", "reg": "2019506032" },
+    { "name": "Neeraja N", "reg": "2019504040" },
+    { "name": "B.Priyadharsini", "reg": "2019504565" },
+    { "name": "Saravanan K", "reg": "2019502546" }
+  ],
+  "weekendActivities": [
+    { "name": "Akash A", "reg": "2019502004" },
+    { "name": "Dhanushri R", "reg": "2019503514" },
+    { "name": "Veerappan P R", "reg": "2019502551" },
+    { "name": "Yuvan Shankar J", "reg": "2019502004" }
+  ],
+  "report": [
+    { "name": "Akash A", "reg": "2019502004" },
+    { "name": "Bala Bharathi N", "reg": "2019502006" },
+    { "name": "Bharath M", "reg": "2019503509" },
+    { "name": "Gayathrisri", "reg": "2019503014" },
+    { "name": "Maheshwari G", "reg": "2019504545" }
+  ],
+  "publicRelation": [
+    { "name": "Bharath M", "reg": "2019503509" },
+    { "name": "Divyadharshini S P", "reg": "2019504020" },
+    { "name": "Kheerthivaasan M", "reg": "2019502529" },
+    { "name": "Muhilan B", "reg": "2019503535" }
+  ]
+}

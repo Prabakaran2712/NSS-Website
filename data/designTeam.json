@@ -1,0 +1,31 @@
+{
+  "posters": [
+    { "name": "Deepajothi S K", "reg": "2019504016" },
+    { "name": "Lokesh Aravind R", "reg": "2019502024" },
+    { "name": "Mithilesh R", "reg": "2019502027" },
+    { "name": "Keerthika M", "reg": "2019503023" }
+  ],
+  "instagram": [
+    { "name": "Gunalan A R", "reg": "2019502521" },
+    { "name": "Kheerthivaasan M", "reg": "2019502529" }
+  ],
+  "facebook": [{ "name": "Bharath M", "reg": "2019503509" }],
+  "drive": [
+    { "name": "Mithilesh R", "reg": "2019502027" },
+    { "name": "R V Prasad", "reg": "2019502034" }
+  ],
+  "website": [
+    { "name": "Prabakaran P", "reg": "2020506062" },
+    { "name": "Prasath K", "reg": "2020506066" },
+    { "name": "Pradesh G V", "reg": "2020506063" },
+    { "name": "Pragadesh B S", "reg": "2020506064" },
+    {
+      "name": "Sufyan Mohamed Nasurudeen",
+      "reg": "2020506097"
+    },
+    { "name": "Karthick V", "reg": "2020507016" },
+    { "name": "Krishna N", "reg": "2020501020" },
+    { "name": "Jayashree V J", "reg": "2020501015" },
+    { "name": "Vignesh D", "reg": "2020501038" }
+  ]
+}
