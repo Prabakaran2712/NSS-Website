@@ -1,3 +1,4 @@
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <div class="query-section">
     <h2 class="query-heading">Contact Us</h2>
     <form method="post" class="query-form">
@@ -36,7 +37,7 @@
                         Host: "smtp.gmail.com",
                         Username : "nssmit2019@gmail.com",
                         Password : "bharath@1510",
-                        To : "bmkvs541@gmail.com",
+                        To : "pradeshgv@gmail.com",
                         From : "nssmit2019@gmail.com",
                         Subject : "Query",
                         Body : mes
