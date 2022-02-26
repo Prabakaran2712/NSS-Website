@@ -1,4 +1,6 @@
+<?php session_start(); ?>
 <?php require('views/header.php'); ?>
+<!-- angularjs -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
 <div ng-app="angApp" ng-controller="appCtrl" class="container mb-5">

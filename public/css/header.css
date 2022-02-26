@@ -1,5 +1,9 @@
-.accent-bg-color, .accent-color{
+.accent-bg-color {
     background-color: #303983;
+}
+
+.accent-color{
+    color: #303983;
 }
 
 .custom-nav-dropdown-color{
