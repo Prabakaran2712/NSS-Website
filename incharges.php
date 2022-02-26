@@ -264,6 +264,42 @@
 
   <!-- design team -->
   <h1 class="display-2 mt-5 my-3">Design Team</h1>
+
+  <div class="row justify-content-center">
+
+<div class="accordion col-md-8" id="accordion3">
+
+  <div class="accordion-item my-3">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#web">
+        Website
+      </button>
+    </h2>
+    <div id="web" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+      <div class="accordion-body">
+      <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Reg. no.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="student in designTeam['website'] track by $index ">
+                <td>{{ $index+1 }}</td>
+                <td>{{ student['name'] }}</td>
+                <td>{{ student['reg'] }}</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
   <div class="row">
 
     <!-- left -->
@@ -390,42 +426,6 @@
           </div>
         </div>
 
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="row justify-content-center">
-
-    <div class="accordion col-md-8" id="accordion3">
-
-      <div class="accordion-item my-3">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#web">
-            Website team
-          </button>
-        </h2>
-        <div id="web" class="accordion-collapse collapse" data-bs-parent="#accordion2">
-          <div class="accordion-body">
-          <table class="table table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Reg. no.</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr ng-repeat="student in designTeam['website'] track by $index ">
-                    <td>{{ $index+1 }}</td>
-                    <td>{{ student['name'] }}</td>
-                    <td>{{ student['reg'] }}</td>
-                  </tr>
-                </tbody>
-              </table>
-          </div>
-        </div>
       </div>
 
     </div>
