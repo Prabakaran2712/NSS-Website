@@ -1,0 +1,12 @@
+{
+  "sessions": [
+    { "name": "Inagural functions", "link": "inagurals.php" },
+    { "name": "Awareness sessions", "link": "awareness.php" },
+    { "name": "NGO sessions", "link": "ngo.php" },
+    { "name": "Competitions", "link": "competitions.php" },
+    { "name": "Interactive sessions", "link": "interactive.php" },
+    { "name": "Celebrations", "link": "celebrations.php" },
+    { "name": "Cleaning sessions", "link": "cleaning.php" },
+    { "name": "Other sessions", "link": "other.php" }
+  ]
+}
