@@ -52,6 +52,7 @@
     font-size: 15px;
 }
 
+.example::-webkit-scrollbar {
+    display: none;
+  }
 
-    
-    
