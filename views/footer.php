@@ -82,6 +82,41 @@ Chromepet, Chennai 600044</a>
 
 </footer>
 <!-- Footer -->
+<!-- logs -->
+<script>
+  <?php if (!isset($_SESSION['logged'])) : ?>
+
+    $.get('https://www.cloudflare.com/cdn-cgi/trace', function(cdata) {
+      // Convert key-value pairs to JSON
+      // for user agent
+      cdata = cdata.trim().split('\n').reduce(function(obj, pair) {
+        pair = pair.split('=');
+        return obj[pair[0]] = pair[1], obj;
+      }, {});
+
+      var logData = cdata;
+
+      $.get('https://api.freegeoip.app/json/?apikey=d63aeb90-96d5-11ec-8b16-a7c31a8ef651', (gdata) => {
+        // for geo location
+
+        // post req to log.php
+        $.ajax({
+          type: "POST",
+          url: "log.php",
+          data: {
+            ua: logData.uag,
+            city: gdata.city,
+            region: gdata.region_name,
+            country: gdata.country_name,
+            pincode: gdata.zipcode,
+          }
+        }).done(function(msg) {});
+      })
+    });
+    <?php $_SESSION['logged'] = true; ?>
+
+  <?php endif; ?>
+</script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
