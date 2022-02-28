@@ -3,43 +3,43 @@
   [
     {
       "id": 1,
-      "title": "Essay writing, pencil sketching, poem writing 2020",
+      "title": "Essay writing, pencil sketching, poem writing (18.02.2020)",
       "content": "Competitions such as essay writing, pencil sketching, poem writing, Just-a-minute and quiz were conducted to bring out the hidden talents of the students.",
       "image": "./public/img/sessions/competitions/martyrsDay2020.png"
     },
     {
       "id": 2,
-      "title": "Creative writing, poetry,Drawing, Miming, connections and Quiz competitions 2019",
-      "content": "The NSS session this week(04.09.2019) had brought out the hidden talents of the students. First year students actively participated in events like Just a minute, Creative writing, poetry,Drawing, Miming, connections and Quiz competitions and exhibited their talents.",
+      "title": "Creative writing, poetry, quiz, miming and more (04.09.2019)",
+      "content": "The NSS session this week had brought out the hidden talents of the students. First year students actively participated in events like Just a minute, Creative writing, poetry,Drawing, Miming, connections and Quiz competitions and exhibited their talents.",
       "image": "./public/img/sessions/competitions/martyrsDay2019.png"
     },
     {
       "id": 3,
-      "title": "NSS day celebration 2018",
+      "title": "NSS day celebration 2018 (10.09.2018)",
       "content": "Competitions were conducted for first year NSS students on behalf of NSS day celebration.",
       "image": "./public/img/sessions/competitions/nssDay2018.png"
     },
     {
       "id": 4,
-      "title": "Martyr`s day 2018",
+      "title": "Martyr's day 2018 (31.01.2018)",
       "content": "On behalf of Martyr`s day, various competitions were conducted for the first year volunteers by senior volunteersby the guidance of NSS Staff advisors.",
       "image": "./public/img/sessions/competitions/martyrsDay2018.png"
     },
     {
       "id": 5,
-      "title": "NSS day celebration 2017",
+      "title": "NSS day celebration 2017 (04.10.2017)",
       "content": "Competitions were conducted for first year students on behalf of NSS day celebration. Events such as essay writing, Tamil & English poetry, jam, picture description, speech, drawing, debate, miming were conducted for first year volunteers by the senior volunteers.",
       "image": "./public/img/sessions/competitions/nssDay2017.png"
     },
     {
       "id": 6,
-      "title": "Martyr`s day 2017",
+      "title": "Martyr's day 2017 (08.02.2017)",
       "content": "On behalf of Martyr`s day, various competitions were conducted for the first year volunteers.",
       "image": "./public/img/sessions/competitions/martyrsDay2017.png"
     },
     {
       "id": 7,
-      "title": "NSS day celebration 2016",
+      "title": "NSS day celebration 2016 (05.10.2016)",
       "content": "Competitions were conducted for first year students on behalf of NSS day celebration. Events such as essay writing, Tamil & English poetry, jam, Spell bee, picture description, speech, drawing, debate, miming were conducted for first year volunteers by the senior volunteers.Around more than 250 NSS first volunteers were participated in the competitions.",
       "image": "./public/img/sessions/competitions/nssDay2016.png"
     }

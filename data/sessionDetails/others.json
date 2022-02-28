@@ -1,107 +1,106 @@
-  {
-    "events":
-  [
+{
+  "events": [
     {
       "id": 1,
-      "title": "Webinar on Gandhian-Thoughts and values",
-      "content": "The philosophy of Gandhi was based on truth , sacrifice , non violence selfless service and cooperation. In modern times , nonviolent methods of action have proven to be a great tool in shaping our society. In order to invest this thought in the minds of future generation , we  NSS volunteers organized a webinar on “ MAHATMA GANDHI – THOUGHTS AND VALUES” .The session was presented by,  Sai Sakthi Shree Saravanan , M.Com currently working in Tamilnadu Rural Bank. She addressed the students with the thoughts and values of Mahatma Gandhi.She also emphasized the changes that one encounter within oneself and in the society as a result of following Gandhian principles.",
+      "title": "Webinar on Gandhian-Thoughts and values (14.10.2020)",
+      "content": "The philosophy of Gandhi was based on truth , sacrifice , non violence selfless service and cooperation. In modern times , nonviolent methods of action have proven to be a great tool in shaping our society. In order to invest this thought in the minds of future generation , we  NSS volunteers organized a webinar on “ MAHATMA GANDHI - THOUGHTS AND VALUES” .The session was presented by,  Sai Sakthi Shree Saravanan , M.Com currently working in Tamilnadu Rural Bank. She addressed the students with the thoughts and values of Mahatma Gandhi.She also emphasized the changes that one encounter within oneself and in the society as a result of following Gandhian principles.",
       "image": "./public/img/sessions/others/webinarGandianThoughts.png"
     },
     {
       "id": 2,
-      "title": "Webinar on grievance redressal",
+      "title": "Webinar on grievance redressal (01.10.2020)",
       "content": "The term grievance redressal primarily covers the receipt and processing of complaints from citizens and consumers . The fact many of us unaware of is that these grievance redressal can be done online in a very simple manner.We NSS volunteers organized a webinar \" GRIEVANCE REDRESSAL \" on improving our virtual presence so that we could contribute more in shaping our society.The session was presented by Mr. K P Rangaprasad , RTI expert and public policy research analyst. He addressed the students about online filing of complaints along with instigating them about the importance of checking the nature of facts that we come across on online media and effectively using online platforms .",
-      "image": "./public/img/sessions/others/webinarGrievence.png"
+      "image": "./public/img/sessions/others/webinarGrievance.png"
     },
     {
       "id": 3,
-      "title": "Webinar on Network Marketing",
+      "title": "Webinar on network marketing (26.08.2020)",
       "content": "To make this lockdown productive and useful we the NSS volunteers organised a webinar. In this lockdown period many college students indulge themselves in network marketing without actually knowing about....!!This had a great impact on both our society as well as the individuals who involved in. These network marketing made them lose their money and even triggered them to commit suicide.So, We decided to conduct a online session about NETWORK MARKETING with the help of Miss . Ranjanee Baskaran (Alumini , EIE department) to create an awareness among our college students.",
       "image": "./public/img/sessions/others/webinarNetworkMarketing.png"
     },
     {
       "id": 4,
-      "title": "ORPHANAGE VISIT",
+      "title": "Orphanage visit (15.03.2020)",
       "content": "“We life by serving others & Happiness is self satisfaction which comes by helping others”. Our National Service Scheme had organised and visited Webbs Memorial Home on March 15, 2020. Our volunteers spent a day with those children and cherished the moments and also by collecting memories to cherish later.",
       "image": "./public/img/sessions/others/orphanageVisit2020.png"
     },
     {
       "id": 5,
-      "title": "MEDICAL CAMP ",
+      "title": "Meidcal camp (11.03.2020)",
       "content": "A medical camp had been organised by our National Service Scheme(NSS-MIT) on March 11, 2020. Medicos from Tagore Medical college conducted the free medical camp.Students and faculty members of our Madras Institute of Technology campus were benefitted by the general check up and doctor consultation.",
       "image": "./public/img/sessions/others/medicalCamp2020.png"
     },
     {
       "id": 6,
-      "title": "Yoga SESSION",
+      "title": "Yoga session (07.02.2020)",
       "content": "Mental strength always comes before physical length . Yoga is the golden key that unlocks the door to peace, tranquility & joy and adds energy , strength and beauty to mind and soul . Yoga session had been conducted which witnessed the active participation of first year volunteers and also premises of our campus had been cleaned.",
       "image": "./public/img/sessions/others/yoga2020.png"
     },
     {
       "id": 7,
-      "title": "PLOG RUN ",
+      "title": "Fit India Plog Run (02.10.2019)",
       "content": "Our NSS volunteers participated in the FIT INDIA PLOG RUN organised on Gandhi Jayanthi, October 2, 2019. Our NSS volunteers and unit incharges took part in the event.Also it was continued by a cleaning session that had been done on the premises of our MIT Annexure.",
       "image": "./public/img/sessions/others/fitIndia2020.png"
     },
     {
       "id": 8,
-      "title": "ORPHANAGE  VISIT",
+      "title": "Orphanage  visit (08.11.2018)",
       "content": "First year NSS students were visited KARUNAI ILLAM  along with senior volunteers and Program officers. ",
       "image": "./public/img/sessions/others/orphanageVisit2018.png"
     },
     {
       "id": 9,
-      "title": "YOGA SESSION",
+      "title": "Yoga session (07.03.2018)",
       "content": "Our Programme Officer Neelavathy Pari conducted a yoga session for the first year volunteers.",
       "image": "./public/img/sessions/others/yoga2018.png"
     },
     {
       "id": 10,
-      "title": "MARATHAN VOLUNTEERING",
+      "title": "Marathon Volunteering (03.12.2017)",
       "content": "Our NSS volunteers went to volunteer for the Marathan .They supported all the runners by providing them the healthy drinks.",
       "image": "./public/img/sessions/others/marathonVolunteering.png"
     },
     {
       "id": 11,
-      "title": "BRAINSTORMING SESSION",
+      "title": "Brainstorming session (30.08.2017)",
       "content": "Brainstorming session was conducted by volunteers. Students realise the problem and asked to give solution to solve those problem.",
       "image": "./public/img/sessions/others/brainstorming2017.png"
     },
     {
       "id": 12,
-      "title": "HERO`S SESSION",
+      "title": "Hero's session (16.02.2017)",
       "content": "This session was conducted to create awareness about vision companion and challenges they face in their day to life against all odds been conveyed to first year NSS Volunteers.",
       "image": "./public/img/sessions/others/heroSession.png"
     },
     {
       "id": 13,
-      "title": "MARATHON",
+      "title": "Marathon (08.01.2017)",
       "content": "A Marathon was being organized by Wipro. Volunteering was done by NSS Volunteers for the Marathon.",
       "image": "./public/img/sessions/others/marathon2017.png"
     },
     {
       "id": 14,
-      "title": "REHABILITATION OF MIT",
+      "title": "Rehabilitation Of MIT (18.12.2016)",
       "content": "By the impact of Vardhah cyclone, MIT suffered a great damage on losing the trees. NSS volunteers have taken great effort to restore green and clean in MIT by clearing the fallen trees, planting trees and paved the way in surroundings. ",
       "image": "./public/img/sessions/others/rehabilitation2016.png"
     },
     {
       "id": 15,
-      "title": "BRAINSTORMING SESSION",
+      "title": "Brainstorming session (26.10.2016)",
       "content": "Brainstorming session was conducted by senior volunteers. Students are asked to share their ideas on making MIT more clean and green.",
       "image": "./public/img/sessions/others/brainstorming2016.png"
     },
     {
       "id": 16,
-      "title": "NEWSPAPER SESSION",
+      "title": "Newspaper session (07.09.2016)",
       "content": "Newspaper session was organized by team NSS for the first year NSS volunteers to  make them aware of what is going on within the society. Students were asked to share some social topics in front of every student.",
       "image": "./public/img/sessions/others/newspaper2016.png"
     },
     {
       "id": 17,
-      "title": "Presentation on NSS",
+      "title": "Presentation on NSS (17.08.2016)",
       "content": "Senior volunteers of NSS presented a presentation on National Service Scheme for the First year.NSS volunteers about their duties and responsibilities of being NSS volunteers.",
       "image": "./public/img/sessions/others/others2016.png"
     }
-   ]
-  }
+  ]
+}
