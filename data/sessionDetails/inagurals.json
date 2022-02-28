@@ -3,14 +3,32 @@
     {
       "id": "1",
       "title": "2016 - 2017 Inaguration Session",
-      "content": "Inaugural function of National Service Scheme was held on 22.09.2016 in Rajam Hall.Mr. Peter Van Geit, Co-founder of Chennai Trekking Club, The Chief guest of the inaugural function addressed the students of MIT - NSS volunteers.",
+      "content": "Inaugural function of National Service Scheme was held on 22.09.2016 in Rajam Hall.Mr. Peter Van Geit, Co-founder of Chennai Trekking Club, The Chief guest of the inaugural function addressed the students of MIT – NSS volunteers.",
       "image": "./public/img/sessions/inagurals/ing2016.png"
     },
     {
       "id": "2",
-      "title": "123 json",
-      "content": "check 123",
+      "title": "2017 - 2018 Inaguration Session",
+      "content": "Inaugural function of National Service Scheme was held on 11.10.2017 in Rajam Hall. The yearly activities, weekly sessions and the daily activities of NSS were explained clearly.Mr. N. Ramachandran, Managing Director, MELSS, The Chief guest of the inaugural function addressed the students of MIT – NSS volunteers.",
       "image": "./public/img/sessions/inagurals/ing2017.png"
+    },
+    {
+      "id": "3",
+      "title": "2018 - 2019 Inaguration Session",
+      "content": "Inaugral function of Naional Service Scheme was held on 01.09.2018 in Rajam Hall. Dean planted saplings on that day.",
+      "image": "./public/img/sessions/inagurals/ing2018.png"
+    },
+    {
+      "id": "4",
+      "title": "2019 - 2020 Inaguration Session",
+      "content": "There was an introductory session on 28th August 2019 for the first years. The program officers introduced themselves and took in charge for each of the seven teams had been divided for the academic year and there was a brief introduction about the activities of NSS in the forecoming sessions by the program officers.",
+      "image": "./public/img/sessions/inagurals/ing2019.png"
+    },
+    {
+      "id": "4",
+      "title": "2020 - 2021 Inaguration Session",
+      "content": "An introductory session about National Service Scheme for the current first year NSS volunteers had been conducted online on 22-02-2021. In this session the first year volunteers were given an insight about National service scheme and its role in the society. They were given the knowledge about the history of NSS, the role of NSS in MIT, hierarchy of NSS ,current programme officers.The session also had a discussion about regular activites of NSS and camping events.",
+      "image": "./public/img/sessions/inagurals/ing2020.png"
     }
   ]
 }
