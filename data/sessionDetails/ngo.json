@@ -2,15 +2,27 @@
     "events": [
       {
         "id": "1",
-        "title": "ngo session 2019",
-        "content": "drug session",
-        "image": "./public/img/sessions/ing2016.png"
+        "title": "Webinar on Global Warming: cause & effects (07.11.2020)",
+        "content": "It is important for every individual to have a minimum amount of  knowledge on global warming and its effects. So we, NSS volunteers, organized an online awareness program on GLOBAL WARMING : CAUSES AND EFFECTS. The session was presented by Mr. Kapil dev also known as the 'Green Man of Chennai'. He is the founder of 'LIVE FOR OTHERS' Organization. In this session, Mr.Kapil Dev emphasized the seriousness of global warming, ways to reduce global warming and the importance of trees. He also insisted  the measures that could be taken by each and every individual in order to reduce the global warming in their own way.",
+        "image": "./public/img/sessions/ngo/webinarGlobalWarming.png"
       },
       {
         "id": "2",
-        "title": "123 json",
-        "content": "mic test 123",
-        "image": "./public/img/sessions/ing2016.png"
+        "title": "Alert (09.10.2019)",
+        "content": "The first-aid awareness session was organized for the volunteers. The session was handed over to the volunteers from Alert NGO, who created awareness amidst the students and shared their experience. The first aid measures, dos and don'ts of the first aid that had to followed during first aid were taught to the students.",
+        "image": "./public/img/sessions/ngo/alert.png"
+      },
+      {
+        "id": "3",
+        "title": "Importance of tree plantation (14.02.2018)",
+        "content": "People from Live For Others - NGO organization came and created awareness regarding the importance of tree plantation to the first year NSS Volunteers by senior volunteers by the guidance of NSS Staff advisors.",
+        "image": "./public/img/sessions/ngo/treePlantation.png"
+      },
+      {
+        "id": "4",
+        "title": "Importance of waste management (22.02.2017)",
+        "content": "People from Exnora - NGO organization came and created awareness regarding the importance of waste management and tree plantation to the first year NSS Volunteers.",
+        "image": "./public/img/sessions/ngo/wasteManage.png"
       }
     ]
   }

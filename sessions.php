@@ -19,8 +19,9 @@
         <div class="col" id="curSession">
             <div class="row">
                 <div class="col-fluid">                                        
+                    <h3 class="display-6 mt-3">{{activeSession}}</h3>
                     <div ng-repeat="session in currentSession['events']">
-                        
+                                            
                         <div class="accordion" id="accordion3">
                             
                             <div class="accordion-item my-3">
