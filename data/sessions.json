@@ -1,12 +1,12 @@
 {
   "sessions": [
-    { "name": "Inagural functions", "link": "inagurals.php" },
-    { "name": "Awareness sessions", "link": "awareness.php" },
-    { "name": "NGO sessions", "link": "ngo.php" },
-    { "name": "Competitions", "link": "competitions.php" },
-    { "name": "Interactive sessions", "link": "interactive.php" },
-    { "name": "Celebrations", "link": "celebrations.php" },
-    { "name": "Cleaning sessions", "link": "cleaning.php" },
-    { "name": "Other sessions", "link": "other.php" }
+    { "name": "Inagural functions", "store": "inagurals.json" },
+    { "name": "Awareness sessions", "store": "awareness.json" },
+    { "name": "NGO sessions", "store": "awareness.json" },
+    { "name": "Competitions", "store": "awareness.json" },
+    { "name": "Interactive sessions", "store": "awareness.json" },
+    { "name": "Celebrations", "store": "awareness.json" },
+    { "name": "Cleaning sessions", "store": "awareness.json" },
+    { "name": "Other sessions", "store": "awareness.json" }
   ]
 }

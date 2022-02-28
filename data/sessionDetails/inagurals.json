@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "2016 - 2017 Inaguration Session",
+      "content": "Inaugural function of National Service Scheme was held on 22.09.2016 in Rajam Hall.Mr. Peter Van Geit, Co-founder of Chennai Trekking Club, The Chief guest of the inaugural function addressed the students of MIT - NSS volunteers.",
+      "image": "./public/img/sessions/inagurals/ing2016.png"
+    },
+    {
+      "id": "2",
+      "title": "123 json",
+      "content": "check 123",
+      "image": "./public/img/sessions/inagurals/ing2017.png"
+    }
+  ]
+}

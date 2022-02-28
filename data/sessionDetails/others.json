@@ -1,0 +1,17 @@
+{
+    "events": [
+      {
+        "id": "1",
+        "title": "other session 2020",
+        "content": "drug session",
+        "image": "./public/img/sessions/ing2016.png"
+      },
+      {
+        "id": "2",
+        "title": "123 json",
+        "content": "mic test 123",
+        "image": "./public/img/sessions/ing2016.png"
+      }
+    ]
+  }
+  

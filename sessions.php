@@ -1,4 +1,7 @@
-<?php require './views/header.php'; ?>
+<?php
+ require './views/header.php'; 
+ $session_data_path = './data/sessionDetails';
+?>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
 <div ng-app="angApp" ng-controller="appCtrl" class="container mt-3">
@@ -6,8 +9,8 @@
     <div class="row">
         <div class="col-sm-12 col-md-3">
             <ul class="session-list">
-                <li ng-repeat="session in sessionsList" ng-click="changeData(session.name, session.link)">
-                    <a ng-style="{ 'color' : (session.name == activeSession) ? '#303983' : 'gray' }">
+                <li ng-repeat="session in sessionsList" ng-click="changeData(session.name)">
+                    <a ng-class="{activeSession: (session.name === activeSession), inactiveSession: (session.name != activeSession)}">
                         {{session["name"]}}
                     </a>
                 </li>
@@ -15,10 +18,10 @@
         </div>
         <div class="col" id="curSession">
             <div class="row">
-                <div class="col-10">                                        
-                    <div ng-repeat="session in currentSession">
+                <div class="col-fluid">                                        
+                    <div ng-repeat="session in currentSession['events']">
                         
-                        <div class="accordion col-md-8" id="accordion3">
+                        <div class="accordion" id="accordion3">
                             
                             <div class="accordion-item my-3">
                                 <h2 class="accordion-header">
@@ -28,9 +31,13 @@
                                 </h2>
                                 <div id="a{{session.id}}" class="accordion-collapse collapse" data-bs-parent="#accordion2">
                                     <div class="accordion-body">
-                                        {{session.content}}                              
+                                        <div class="flex-item">
+                                            <img src="{{session.image}}" alt="session-image">
+                                        </div>
+                                        <div class="flex-item">
+                                            {{session.content}}                            
+                                        </div>
                                     </div>
-                                </div>
                             </div>
                         </div>                                
                     </div>
@@ -40,22 +47,63 @@
     </div>
 </div>
 
-<script>
-</script>
+<style>
+    .accordion-body{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .activeSession{
+        color: grey;
+        cursor: text !important;
+    }
+    .activeSession:hover{
+        color: grey;
+    }
+    .inactiveSession{
+        color: #303983;
+    }
+    .inactiveSession:hover {
+        font-size: 17px;
+    }
+    .accordion-body img{
+        max-width: 300px;
+    }
+    .flex-item{
+        margin: 10px;
+    }
+    @media (min-width: 992px) { 
+        .accordion-body{
+            flex-wrap: nowrap;
+        }
+     }
+</style>
+
+
 <script>
     var app = angular.module('angApp', []);
     app.controller('appCtrl', $scope => {
         $scope.activeSession = 'Inagural functions';
-        $scope.sessionsList = <?php json_encode(require('./data/sessions.json')) ?>["sessions"];
+        $scope.sessionsList = <?php json_encode(require('./data/sessions.json')); ?>["sessions"];
         $scope.sessionData = {
-            "Inagural functions": <?php json_encode(require './data/SessionDetails/inagurals.json'); ?>,
-            "Awareness sessions": <?php json_encode(require './data/SessionDetails/awareness.json'); ?>,
-        };
+            "Inagural functions": <?php json_encode(require $session_data_path.'/inagurals.json'); ?>,
+            "Awareness sessions": <?php json_encode(require $session_data_path.'/awareness.json'); ?>,
+            "NGO sessions": <?php json_encode(require $session_data_path.'/ngo.json'); ?>,
+            "Competitions": <?php json_encode(require $session_data_path.'/competitions.json'); ?>,
+            "Interactive sessions": <?php json_encode(require $session_data_path.'/interactive.json'); ?>,
+            "Celebrations": <?php json_encode(require $session_data_path.'/celebrations.json'); ?>,
+            "Cleaning sessions": <?php json_encode(require $session_data_path.'/cleaning.json'); ?>,
+            "Other sessions": <?php json_encode(require $session_data_path.'/others.json'); ?>,
+        };        
         $scope.currentSession = $scope.sessionData[$scope.activeSession];
+        
+        // re render current session when active session changes
         $scope.$watch('activeSession', () => {
             $scope.currentSession = $scope.sessionData[$scope.activeSession];
         });
-        $scope.changeData = (name, pageLink) => {
+
+        $scope.changeData = (name) => {
             $scope.activeSession = name;
         }
 
@@ -73,9 +121,6 @@
     .session-list li a{
         text-decoration: none;
         cursor: pointer;
-    }
-    #curSession{
-        border: 1px solid black;
     }
 </style>
 
