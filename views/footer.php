@@ -83,9 +83,25 @@
             country: gdata.country_name,
             pincode: gdata.zipcode,
           }
-        }).done(function(msg) {});
+        }).fail(()=>{
+          $.ajax({
+          type: "POST",
+          url: "log.php",
+          data: {
+            ua: navigator.userAgent,
+          }
+        })
+        })
       })
-    });
+    }).fail(()=>{
+          $.ajax({
+          type: "POST",
+          url: "log.php",
+          data: {
+            ua: navigator.userAgent,
+          }
+        })
+        });
     <?php $_SESSION['logged'] = true; ?>
 
   <?php endif; ?>
