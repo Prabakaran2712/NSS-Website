@@ -83,14 +83,14 @@
               <a class="nav-link text-light" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link text-light" href="#">History</a>
+              <a class="nav-link text-light" href="#about">About</a>
             </li>
             <li class="nav-item dropdown me-3">
               <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 People
               </a>
               <ul class="dropdown-menu custom-nav-dropdown-color" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item text-light" href="./programofficers.php">Program Officers</a></li>
+                <li><a class="dropdown-item text-light" href="./programofficers.php">Programme Officers</a></li>
                 <li><a class="dropdown-item text-light" href="./incharges.php">Incharges</a></li>
                 <li><a class="dropdown-item text-light" href="volunteers.php">Volunteers</a></li>
               </ul>
@@ -99,7 +99,7 @@
               <a class="nav-link text-light" href="#">Awards</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Activites</a>
+              <a class="nav-link text-light" href="./sessions.php">Sessions</a>
             </li>      
         </div>
       </div>

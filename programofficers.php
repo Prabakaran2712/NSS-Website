@@ -158,7 +158,7 @@ color: #000;
     ?>
     <div class="program-officers">
         <div class="title-program-officers">
-            <h1>PROGRAM OFFICERS</h1>
+            <h1>PROGRAMME OFFICERS</h1>
         </div>
     <div class="grid-container">
     <div class="grid-item" id="blank-position"></div>
@@ -184,26 +184,6 @@ color: #000;
             </div>
          </div></div>
         <div class="grid-item" id="blank-position"></div>
-        <!---<div class="grid-item"><div class="card-container">
-            <div class="upper-container">
-               <div class="image-container">
-                  <img src="public/img/profile.jpg" />
-               </div>
-            </div>
-            <div class="lower-container">
-               <div>
-                  <h3>Dr KM Veerabadran</h3>
-                  <h4>Professor</h4>
-               </div>
-               <div class="contact">
-                <i class="fa fa-envelope" >  <span class="contact-element">Veerabadran@gmail.com</span></i>
-                </div>
-                <div class="contact">
-                <i class="fa fa-phone"> <span class="contact-element">91+ 9940356892</span></i>
-               </div>
-              
-            </div>
-         </div></div> -->
          <?php  while($row=mysqli_fetch_assoc($result)){
              if($row['designation']!="head"){?>
         
@@ -229,87 +209,7 @@ color: #000;
             </div>
          </div></div>
             
-  <?php }} ?>
-        <!-- <div class="grid-item"><div class="card-container">
-            <div class="upper-container">
-               <div class="image-container">
-                  <img src="public/img/profile.jpg" />
-               </div>
-            </div>
-            <div class="lower-container">
-               <div>
-                  <h3>Dr KM Veerabadran</h3>
-                  <h4>Professor</h4>
-               </div>
-               <div class="contact">
-                <i class="fa fa-envelope" >  <span class="contact-element">Veerabadran@gmail.com</span></i>
-                </div>
-                <div class="contact">
-                <i class="fa fa-phone"> <span class="contact-element">91+ 9940356892</span></i>
-               </div>
-              
-            </div>
-         </div></div>
-        <div class="grid-item"><div class="card-container">
-            <div class="upper-container">
-               <div class="image-container">
-                  <img src="public/img/profile.jpg" />
-               </div>
-            </div>
-            <div class="lower-container">
-               <div>
-                  <h3>Dr KM Veerabadran</h3>
-                  <h4>Professor</h4>
-               </div>
-               <div class="contact">
-                <i class="fa fa-envelope" >  <span class="contact-element">Veerabadran@gmail.com</span></i>
-                </div>
-                <div class="contact">
-                <i class="fa fa-phone"> <span class="contact-element">91+ 9940356892</span></i>
-               </div>
-              
-            </div>
-         </div></div>
-        <div class="grid-item"><div class="card-container">
-            <div class="upper-container">
-               <div class="image-container">
-                  <img src="public/img/profile.jpg" />
-               </div>
-            </div>
-            <div class="lower-container">
-               <div>
-                  <h3>Dr KM Veerabadran</h3>
-                  <h4>Professor</h4>
-               </div>
-               <div class="contact">
-                <i class="fa fa-envelope" >  <span class="contact-element">Veerabadran@gmail.com</span></i>
-                </div>
-                <div class="contact">
-                <i class="fa fa-phone"> <span class="contact-element">91+ 9940356892</span></i>
-               </div>
-              
-            </div>
-         </div></div>
-        <div class="grid-item"><div class="card-container">
-            <div class="upper-container">
-               <div class="image-container">
-                  <img src="public/img/profile.jpg" />
-               </div>
-            </div>
-            <div class="lower-container">
-               <div>
-                  <h3>Dr KM Veerabadran</h3>
-                  <h4>Professor</h4>
-               </div>
-               <div class="contact">
-                <i class="fa fa-envelope" >  <span class="contact-element">Veerabadran@gmail.com</span></i>
-                </div>
-                <div class="contact">
-                <i class="fa fa-phone"> <span class="contact-element">91+ 9940356892</span></i>
-               </div>
-              
-            </div>
-         </div></div> -->
+  <?php }} ?>        
      
     </div>
     </div>

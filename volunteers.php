@@ -42,9 +42,11 @@
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].style.backgroundColor = "";
-      tablinks[i].style.color = "white";
+      tablinks[i].style.color = "white";      
     }
     document.getElementById(pageName).style.display = "block";
+    elmnt.style.border = '1px solid #ddd';
+    elmnt.style.borderBottom = 'none';
     elmnt.style.backgroundColor = color;
     elmnt.style.color = "black";
   }
