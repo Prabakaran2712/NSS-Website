@@ -4,7 +4,7 @@
 ?>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
-<div ng-app="angApp" ng-controller="appCtrl" class="container mt-3">
+<div ng-app="angApp" ng-controller="appCtrl" class="container mt-3 mb-5">
     <h1 class="display-3 mb-3">Sessions</h1>
     <div class="row">
         <div class="col-sm-12 col-md-3">
@@ -39,8 +39,9 @@
                                             {{session.content}}                            
                                         </div>
                                     </div>
-                            </div>
-                        </div>                                
+                                </div>
+                            </div>                                
+                        </div>
                     </div>
                 </div>
             </div>

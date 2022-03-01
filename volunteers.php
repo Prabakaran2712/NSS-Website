@@ -42,11 +42,13 @@
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].style.backgroundColor = "";
-      tablinks[i].style.color = "white";      
+      tablinks[i].style.color = "white";
+      tablinks[i].style.border = "none";
+      tablinks[i].style.padding = "12px 16px";
     }
     document.getElementById(pageName).style.display = "block";
-    elmnt.style.border = '1px solid #ddd';
-    elmnt.style.borderBottom = 'none';
+    elmnt.style.borderTop = '3px solid red';
+    elmnt.style.paddingTop = '9px';
     elmnt.style.backgroundColor = color;
     elmnt.style.color = "black";
   }

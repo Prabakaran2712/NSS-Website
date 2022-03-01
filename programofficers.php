@@ -35,7 +35,7 @@ padding: 20px;
 padding-top: 40px;
 text-align: center;
 }
-.lower-container h3, h4{
+.lower-container h3, .lower-container h4{
 box-sizing: border-box;
 line-height: 1.5;
 font-weight: lighter;
