@@ -1,4 +1,4 @@
-<div class="container-fluid mt-3" style="height:auto;" id="about">
+<div class="container mt-3" style="height:auto;" id="about">
 <div class="row">
 <div class="col-sm-6" style="padding-top:50px;height:300px;" style="margin-top:80px;">
         <h1 class="about-heading">About Us</h1>

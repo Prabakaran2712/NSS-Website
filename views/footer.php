@@ -1,87 +1,60 @@
-<!-- Footer -->
-<footer class="col-sm-12" style="height:auto;width:100%;">
-
-  <!-- Footer Links -->
-  <div class="text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row" style="height:auto;width:auto;margin-right:0px">
-
-      <!-- Grid column -->
-      <div class="col-sm-3" style="padding:0px;">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="font-size:20px;color:black;">About Us</h5>
-
-        <ul class="list-unstyled">
+<footer>
+  <div class="container">
+    <div class="footer-body">
+      <div class="footer-about">
+        <h2 class="display-6">National Service Scheme</h2>
+        <h4 class="lead">Anna University, MIT Campus</h4>
+        <p class="py-3">Write to us: <a href="mailto:mail@mail.com" class="footer-mail">mail@mail.com</a></p>
+      </div>
+      <div class="footer-links">
+        <ul>
           <li>
-            <a href="#!" class="links">Very long link 1</a>
+            <img src="./public/icons/instagram.svg" class="footer-link-icon"></img>
+            Instagram
           </li>
           <li>
-            <a href="#!" class="links">Very long link 2</a>
-          </li>
-          <li>
-            <a href="#!" class="links">Very long link 3</a>
-          </li>
-          <li>
-            <a href="#!" class="links">Very long link 4</a>
-          </li>
+            <img src="./public/icons/facebook.svg" class="footer-link-icon"></img>
+            Facebook
+          </li>          
         </ul>
-
       </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-sm-3" style="padding:0px;">
-
-        <!-- Links -->
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-sm-3" style="padding:0px;">
-
-      </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-sm-3" style="padding:0px;">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="font-size:20px;color:black;">Contact details:</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!" class="links">Anna University, MIT Campus,
-Chromepet, Chennai 600044</a>
-          </li>
-          <li>
-            <a href="#!" class="links">044 2251 6233</a>
-          </li>
-          <li>
-            <a href="#!" class="links">nss@mitindia.edu</a>
-          </li>
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row -->
-
   </div>
-  <!-- Footer Links -->
-  <!-- Copyright -->
-
 </footer>
-<!-- Footer -->
+
+<style>
+  footer{
+    background-color: #303983;
+    color: white;
+    padding: 20px;
+  }
+  .footer-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-mail{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-mail:hover{
+    color: white;
+  }
+  .footer-links ul{
+    list-style-type: none;
+  }
+  .footer-links ul li{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+  .footer-link-icon{
+    filter: invert(100%);
+    padding: 3px;    
+    margin-right: 5px;
+  }
+</style>
+
 <!-- logs -->
 <script>
   <?php if (!isset($_SESSION['logged'])) : ?>
@@ -118,9 +91,9 @@ Chromepet, Chennai 600044</a>
   <?php endif; ?>
 </script>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</script>
 </body>
 </html>
