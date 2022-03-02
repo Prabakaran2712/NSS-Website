@@ -33,4 +33,9 @@
         $sql = "INSERT INTO messages(id, email, message) VALUES('$id', '$email', '$message')";
         mysqli_query($con, $sql);
     }
+    else if($_POST['type'] == 'markMessageRead'){
+        $messageId = $_POST['id'];
+        $sql = "UPDATE messages SET message_read = 1 WHERE id = '$messageId'";
+        mysqli_query($con, $sql);
+    }
 ?>

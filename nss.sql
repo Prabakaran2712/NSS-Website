@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 02, 2022 at 03:04 PM
+-- Generation Time: Mar 02, 2022 at 03:30 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -35,6 +35,13 @@ CREATE TABLE `analytics` (
   `country` varchar(255) DEFAULT NULL,
   `loggedAt` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `analytics`
+--
+
+INSERT INTO `analytics` (`id`, `ua`, `city`, `region`, `country`, `loggedAt`) VALUES
+('621f7e2138aa8', 'Mozilla/5.0 (X11; Linux x86_64; rv:97.0) Gecko/20100101 Firefox/97.0', '', '', '', '2022-03-02 14:24:33');
 
 -- --------------------------------------------------------
 
@@ -73,8 +80,17 @@ CREATE TABLE `messages` (
   `id` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `message` text NOT NULL,
-  `timestamp` timestamp NOT NULL DEFAULT current_timestamp()
+  `timestamp` timestamp NOT NULL DEFAULT current_timestamp(),
+  `message_read` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `messages`
+--
+
+INSERT INTO `messages` (`id`, `email`, `message`, `timestamp`, `message_read`) VALUES
+('621f7df16b3b8', 'test@mail.com', 'I am a test message', '2022-03-02 14:23:45', 1),
+('621f7f3a282fc', 'praga@mail', 'hello world', '2022-03-02 14:29:14', 0);
 
 -- --------------------------------------------------------
 

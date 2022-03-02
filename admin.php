@@ -18,6 +18,12 @@ else
     }
 }
 
+// select messages
+$messages_sql = "SELECT * FROM messages ORDER BY timestamp DESC";
+$messages_result = mysqli_query($con, $messages_sql);
+$messages = json_encode(mysqli_fetch_all($messages_result, MYSQLI_ASSOC));
+
+// select analytics
 $analytics_sql = "SELECT * FROM analytics ORDER BY loggedAt DESC";
 $analytics_res = mysqli_query($con, $analytics_sql);
 $analytics = json_encode(mysqli_fetch_all($analytics_res, MYSQLI_ASSOC));
@@ -30,6 +36,41 @@ require('./views/header.php');
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 
 <div ng-app="angApp" class="container py-3 my-3" ng-controller="adminController">
+
+    <!-- messages -->
+     <div>
+        <h1 class="col display-4 accent-color mt-5 mb-3">Messages</h1>
+        <div ng-show="messages.length">
+            <div>
+                <input type="checkbox" id="show-only-unread" ng-model="showOnlyUnreadMessages">
+                <label for="show-only-unread" class="text-muted">Show only unread messages</label>
+            </div>
+            <div ng-repeat="message in messages">
+                <div ng-hide="message.message_read == 1 && showOnlyUnreadMessages" class="card w-50 my-3">
+                    <div class="card-body">
+                        <div class="card-title h5">
+                            <span class="display-6">{{ message.email }}</span>
+                            <span ng-show="message.message_read == 0" class="badge bg-success mx-1">New</span>
+                        </div>
+                        <blockquote class="blockquote">
+                            <p>{{ message.message }}</p>
+                        </blockquote>
+                        <div ng-show="message.message_read == 0">
+                            <button ng-click="read($index)" class="btn btn-outline-primary my-3">Mark as read</button>
+                        </div>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Received at {{ message.timestamp }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div ng-show="messages.length==0 || (showOnlyUnreadMessages && unreadMessages.length==0)">
+            <p class="lead my-3">No messages to show</p>
+        </div>
+    </div>
+
+    <!-- site analytics -->
     <div>
         <div class="row align-items-center">
             <h1 class="col display-4 accent-color mt-5 mb-3">Site analytics</h1>
@@ -80,6 +121,27 @@ require('./views/header.php');
 <script>
     var app = angular.module('angApp', []);
     app.controller('adminController', $scope => {
+
+        $scope.showOnlyUnreadMessages = true;
+
+        $scope.messages = <?php echo $messages; ?>;
+
+        $scope.$watch('messages', () => {
+            $scope.unreadMessages = $scope.messages.filter(e => e.message_read == 0);
+        }, true)
+
+        $scope.read = n => {
+            id = $scope.messages[n].id;
+            $.ajax({
+                type: "POST",
+                url: "log.php",
+                data: {type: 'markMessageRead', id}
+            }).done(() => {
+                $scope.$apply(() => {
+                    $scope.messages[n].message_read = 1;
+                })
+            })
+        }
 
         $scope.analytics = <?php echo $analytics; ?>;
 
