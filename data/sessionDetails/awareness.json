@@ -1,6 +1,24 @@
 {
     "events": [
       {
+        "id": 23,
+        "title": "Bhogi  bonfire 2022",
+        "content": "To create awareness among people regarding Bhogi Bonfire, our NSS Volunteers created a poster depicting an awareness message.",
+        "image": "./public/img/sessions/awareness/boghi2022.png"
+      },
+      {
+        "id": 22,
+        "title": "Rally 2021",
+        "content": "On 25th november to observe the communal harmony campaign week,We the nss volunteer organized a rally session in MIT road under the guidance of our staffs. This session was a great success and many students have taken part in this rally.",
+        "image": "./public/img/sessions/awareness/rally2021.png"
+      },
+      {
+        "id": 21,
+        "title": "Webinar on vigilance awareness 2021",
+        "content": "This  session was conducted on 30.10.2021 by Shri.Thiyagarajan T, Regional vigilance head, SR,Air India. To stop corruption first we need to start from our home instead of lecturing the world. Transparency is the tool which can kill corruption. He explained what are the qualities/things we need to have to avoid corruption as a citizen and  Why vigilance day is celebrated in October month.",
+        "image": "./public/img/sessions/awareness/webinarVigilance.png"
+      },
+      {
         "id": "20",
         "title": "Webinar on Disaster Management 2020",
         "content": "The need for abilities across topics, disciplines and methods is especially important for preventing disasters. Since India is a tropical country it is prone to many tropical cyclones  and Tropical cyclones are one of  the most destructive natural phenomena.Some of these cyclones have beneficial effects on the Indian mainland while the  others have adverse effects. We NSS volunteers organized a online technical talk and awareness programme on tropical cyclones . The session was presented by Prof. Sridhar Balasubramanian , IDP Climate Studies , IIT Bombay , Mumbai and Mr. Guru Arvind , weather enthusiast and blogger . Prof.Sridhar Balasubramanian who is interested in oceanal atmospheric dynamics delivered a brief note on dynamics and management of tropical cyclones . Mr.Guru Arvind presented the case study of Vardha cyclone , a very severe cyclonic storm which impacted  $22,573 crore damage to the Indian mainland.",
@@ -27,13 +45,13 @@
       {
         "id": "16",
         "title": "Webinar on health and wellness with yoga 2021",
-        "content": "A clear head and healthy body leave more room for creative thinking and innovation. There are many ways to achieve this goal. One such way is practicing yoga.The art of practicing yoga helps in controlling an individual's mind, body and soul. Inorder to incorporate this valuable asset to our students we the volunteers of NSS organized an online webinar on “HEALTH AND WELLNESS WITH YOGA”. The session was presented by Dr.KUSH PANCHAL who has obtained PhD in ‘ Dhyan Yog’,Diploma in Fitness Management.The session was an interactive one. Towards the end of the session every volunteer had a clear picture of importance of yoga in one’s life.",
+        "content": "A clear head and healthy body leave more room for creative thinking and innovation. There are many ways to achieve this goal. One such way is practicing yoga.The art of practicing yoga helps in controlling an individual's mind, body and soul. Inorder to incorporate this valuable asset to our students we the volunteers of NSS organized an online webinar on “HEALTH AND WELLNESS WITH YOGA”. The session was presented by Dr.KUSH PANCHAL who has obtained PhD in ' Dhyan Yog',Diploma in Fitness Management.The session was an interactive one. Towards the end of the session every volunteer had a clear picture of importance of yoga in one's life.",
         "image": "./public/img/sessions/awareness/webinarHealth.png"
       },
       {
         "id": "15",
         "title": "TRAFFIC RULES & ROAD SAFETY 2019",
-        "content": "A NGO session was organised for our volunteers on March 3,2020. Speakers from the NGO spoke on the topic ‘Traffic Rules and Road Safety’, and also explained about DOs and DON’Ts in traffic rules. Also awareness on road safety has been created among our volunteers.",
+        "content": "A NGO session was organised for our volunteers on March 3,2020. Speakers from the NGO spoke on the topic 'Traffic Rules and Road Safety', and also explained about DOs and DON'Ts in traffic rules. Also awareness on road safety has been created among our volunteers.",
         "image": "./public/img/sessions/awareness/roadSafety.png"
       },
       {
@@ -99,7 +117,7 @@
       {
         "id": "4",
         "title": "Dengue awareness 2016",
-        "content": "There is a common saying that “Health is wealth”. Maintaining a  proper health is a difficult task in present situation. Our students spent their time in creating awareness among the people about the health issues and one of the most serious problem-The Dengue. They also insisted about the importance of having ‘ Nilavembu  kasayam ’ and provided the people the healthy drink.",
+        "content": "There is a common saying that “Health is wealth”. Maintaining a  proper health is a difficult task in present situation. Our students spent their time in creating awareness among the people about the health issues and one of the most serious problem-The Dengue. They also insisted about the importance of having ' Nilavembu  kasayam ' and provided the people the healthy drink.",
         "image": "./public/img/sessions/awareness/dengueAwareness.png"
       },
       {

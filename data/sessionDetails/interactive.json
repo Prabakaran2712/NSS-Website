@@ -1,57 +1,63 @@
 {
     "events": [
       {
+        "id": 0,
+        "title": "Impact of movies on the society 2021",
+        "content":"We the nss volunteers organized a offline interactive session on 10.12.2021. The topic was 'impact of movies on the society'. In this session we made students speak about their views regarding its impacts and its influence on them. Many untold aspects were united in this session.",
+        "image": "./public/img/sessions/interactive/interactive2021.png"
+      },
+      {
         "id": "1",
-        "title": "Interactive Session with Gaming events (27.02.2021)",
+        "title": "Interactive Session with Gaming events 2021",
         "content": "This session is an interactive session planned to interact with the first year volunteers. The first year volunteers were made to involve by participating in gaming events. There were gaming events like connexions, riddles, puzzles. The volunteers participated with enthusiasm. The session was conducted online.",
         "image": "./public/img/sessions/interactive/onlineGaming2021.png"
       },
       {
         "id": "2",
-        "title": "Motivational Session (02.02.2021)",
+        "title": "Motivational Session 2021",
         "content": "A Motivational session was arranged by our NSS volunteers for the first year volunteers. The session was presented by Rotarian G.Gunavathy who started the session with a positive vibe. The session was an interactive one. By the end of the session, she filled the minds of our volunteers with positivity and emphasized our students to work hard to achieve our goal.",
         "image": "./public/img/sessions/interactive/motivation2021.png"
       },
       {
         "id": "3",
-        "title": "Paper Bag & Slogan Writing (16.10.2019)",
+        "title": "Paper Bag & Slogan Writing 2019",
         "content": "The first year NSS volunteers attended the paper bag session. Volunteers were taught to make recyclable paper bags using newspapers. It involved volunteers of three units. The remaining four units involved in slogan writings about the current issues prevailing in the society. It brought out the ideas and views of the students, which had also created awareness. ",
         "image": "./public/img/sessions/interactive/paperSlogan2019.png"
       },
       {
         "id": "4",
-        "title": "Debate session (23.10.2019)",
+        "title": "Debate session 2019",
         "content": "There was a debate session for the volunteers which brought up and expressed the ideas of the individuals. The session was interactive by their active participation.",
         "image": "./public/img/sessions/interactive/debate2019.png"
       },
       {
         "id": "5",
-        "title": "Communication session (01.10.2019)",
+        "title": "Communication session 2019",
         "content": "There was an interactive session for the NSS volunteers on October 01, 2019. It included group discussions, debate and other interactive sessions. These sessions ended up with inspiring talents being brought to light.",
         "image": "./public/img/sessions/interactive/communication2019.png"
       },
       {
         "id": "6",
-        "title": "Communication session (06.09.2017)",
-        "content": "Communication session, a kind of interactive session on which first year volunteers were asked to communicate and share their ideas on social relative topics to ensure that they were out of stage fear and able to communicate with people. This session was being conducted by senior volunteers.",
+        "title": "Communication session 2017",
+        "content": "Communication session, a kind of interactive session on which first year volunteers were asked to communicate and share their ideas on social relative topics to ensure that they were out of stage fear and able to communicate with people. This session was being conducted by senior volunteers on 06.09.2017.",
         "image": "./public/img/sessions/interactive/communication2017Sept.png"
       },
       {
         "id": "7",
-        "title": "Communication session (23.08.2017)",
-        "content": "The NSS volunteers were assembled and divided into groups and sent to respective classrooms. In classrooms, each of the volunteers were made to give self -introduction. They were given information regarding their curriculum and cultural events. They were made to share their new experience in college.",
+        "title": "Communication session 2017",
+        "content": "On 23.08.2017, the NSS volunteers were assembled and divided into groups and sent to respective classrooms. In classrooms, each of the volunteers were made to give self -introduction. They were given information regarding their curriculum and cultural events. They were made to share their new experience in college.",
         "image": "./public/img/sessions/interactive/communication2017Aug.png"
       },
       {
         "id": "8",
-        "title": "Communication session (24.09.2016)",
-        "content": "An interactive session was conducted by senior volunteers to discuss their views and suggestions on socially facing issues so that students can provide informative awareness with their surroundings.",
+        "title": "Communication session 2016",
+        "content": "An interactive session was conducted on 24.09.2016 by senior volunteers to discuss their views and suggestions on socially facing issues so that students can provide informative awareness with their surroundings.",
         "image": "./public/img/sessions/interactive/communication2016Sept.png"
       },
       {
         "id": "9",
-        "title": "Communication session (24.08.2016)",
-        "content": "Communication session, a kind of interactive session on which first year volunteers were asked to communicate and share their ideas on social relative topics to ensure that they were out of stage fear and able to communicate with people. This session was being conducted by senior volunteers.",
+        "title": "Communication session 2016",
+        "content": "Communication session, a kind of interactive session on which first year volunteers were asked to communicate and share their ideas on social relative topics to ensure that they were out of stage fear and able to communicate with people. This session was being conducted by senior volunteers on 24.08.2016.",
         "image": "./public/img/sessions/interactive/communication2016Aug.png"
       }
     ]
