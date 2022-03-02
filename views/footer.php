@@ -77,6 +77,7 @@
           type: "POST",
           url: "log.php",
           data: {
+            type: 'analytics',
             ua: logData.uag,
             city: gdata.city,
             region: gdata.region_name,
@@ -88,6 +89,7 @@
           type: "POST",
           url: "log.php",
           data: {
+            type: 'analytics',
             ua: navigator.userAgent,
           }
         })
@@ -98,6 +100,7 @@
           type: "POST",
           url: "log.php",
           data: {
+            type: 'analytics',
             ua: navigator.userAgent,
           }
         })
