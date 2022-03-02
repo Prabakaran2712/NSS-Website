@@ -83,7 +83,7 @@
               <a class="nav-link text-light" aria-current="page" href="index.php">Home</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link text-light" href="#about">About</a>
+              <a class="nav-link text-light" href="./index.php#about">About</a>
             </li>
             <li class="nav-item dropdown me-3">
               <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
