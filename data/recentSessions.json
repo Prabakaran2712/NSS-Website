@@ -1,0 +1,40 @@
+{
+    "sessions": [
+        {
+            "id": 1,
+            "title": "IT industry and sustainable future",
+            "content": "An offline session on “IT industry and sustainable future”  conducted on 16th February.The guest speaker of this wonderful session was Ms.Annie Juliet Christdhas and she is working in a private bank (IT sector) as Assistant Vice President .During this occusion she gave great informative speech  about the IT industry.She shared her work experience with us .She explained how industries work and current situation of the IT industries.She taught us how to prepare for interviews and how to answer questions.Finally she cleared  doubts asked by the volunteers.",
+            "image": "./public/img/sessions/recent/itIndustry.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Gandhian Principles",
+            "content": "An offline session on Gandhian Principles conducted on February 10th. This session was conducted by Mr. Leo Bright Singh. In this session he talked about the principles Gandhiji followed in his life, how it transformed him from common man into Father of Our Nation. He also said about his visionary and thoughts. He also spoke about the people like Obama and Nelson Mandela who followed Gandhian Principles and succeeded in their life. He instructed students at least follow some of the Principles to excel in their life.",
+            "image": "./public/img/sessions/recent/gandhian.jpg"
+        },
+        {
+            "id": 3,
+            "title": "An Interactive session with Vineetha ",
+            "content": "An Interactive session with Vineetha(Alumna of NSS) was organized on February  02, 2022.In this session, Our volunteers got a chance to learn about the past experience from  passed out alumnus and discussed about  how NSS works and volunteering activity has been carried out  in our NSS MIT so far. This session resulted in the discovery of inspiring abilities.",
+            "image": "./public/img/sessions/recent/interactive.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Republic day quiz",
+            "content": "An Interactive session with Vineetha(Alumna of NSS) was organized on February  02, 2022.In this session, Our volunteers got a chance to learn about the past experience from  passed out alumnus and discussed about  how NSS works and volunteering activity has been carried out  in our NSS MIT so far. This session resulted in the discovery of inspiring abilities.",
+            "image": "./public/img/sessions/recent/webinarQuiz.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Webinar on empowerment of girl child",
+            "content": "An Interactive session with Vineetha(Alumna of NSS) was organized on February  02, 2022.In this session, Our volunteers got a chance to learn about the past experience from  passed out alumnus and discussed about  how NSS works and volunteering activity has been carried out  in our NSS MIT so far. This session resulted in the discovery of inspiring abilities.",
+            "image": "./public/img/sessions/recent/webinarGirl.png"
+        },
+        {
+            "id": 6,
+            "title": "NSS Inaguration ceremony",
+            "content": "An Interactive session with Vineetha(Alumna of NSS) was organized on February  02, 2022.In this session, Our volunteers got a chance to learn about the past experience from  passed out alumnus and discussed about  how NSS works and volunteering activity has been carried out  in our NSS MIT so far. This session resulted in the discovery of inspiring abilities.",
+            "image": "./public/img/sessions/recent/inag.png"
+        }
+    ]
+}

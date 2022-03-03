@@ -1,34 +1,34 @@
 <?php
-require('./views/config.php');
-session_start();
-if (!isset($_SESSION['user']))
-{
-    header("location: 403.php");
-}
-else
-{
-    // check if user is admin
-    $user = $_SESSION['user'];
-    $is_admin_sql = "SELECT isAdmin FROM users WHERE username='$user'";
-    $is_admin_result = mysqli_query($con, $is_admin_sql);
-    $is_admin_val = mysqli_fetch_row($is_admin_result)[0];
-    if ($is_admin_val == 0)
+    session_start();
+    require('./views/config.php');
+    if (!isset($_SESSION['user']))
     {
         header("location: 403.php");
     }
-}
+    else
+    {
+        // check if user is admin
+        $user = $_SESSION['user'];
+        $is_admin_sql = "SELECT isAdmin FROM users WHERE username='$user'";
+        $is_admin_result = mysqli_query($con, $is_admin_sql);
+        $is_admin_val = mysqli_fetch_row($is_admin_result)[0];
+        if ($is_admin_val == 0)
+        {
+            header("location: 403.php");
+        }
+    }
 
-// select messages
-$messages_sql = "SELECT * FROM messages ORDER BY timestamp DESC";
-$messages_result = mysqli_query($con, $messages_sql);
-$messages = json_encode(mysqli_fetch_all($messages_result, MYSQLI_ASSOC));
+    // select messages
+    $messages_sql = "SELECT * FROM messages ORDER BY timestamp DESC";
+    $messages_result = mysqli_query($con, $messages_sql);
+    $messages = json_encode(mysqli_fetch_all($messages_result, MYSQLI_ASSOC));
 
-// select analytics
-$analytics_sql = "SELECT * FROM analytics ORDER BY loggedAt DESC";
-$analytics_res = mysqli_query($con, $analytics_sql);
-$analytics = json_encode(mysqli_fetch_all($analytics_res, MYSQLI_ASSOC));
+    // select analytics
+    $analytics_sql = "SELECT * FROM analytics ORDER BY loggedAt DESC";
+    $analytics_res = mysqli_query($con, $analytics_sql);
+    $analytics = json_encode(mysqli_fetch_all($analytics_res, MYSQLI_ASSOC));
 
-require('./views/header.php');
+    require('./views/header.php');
 
 ?>
 

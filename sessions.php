@@ -10,7 +10,7 @@
         <div class="col-sm-12 col-md-3">
             <ul class="session-list">
                 <li ng-repeat="session in sessionsList" ng-click="changeData(session.name)">
-                    <a ng-class="{activeSession: (session.name === activeSession), inactiveSession: (session.name != activeSession)}">
+                    <a ng-class="{activeSession: (session.name === activeSession), inactiveSession: (session.name != activeSession)}" class="fw-bold">
                         {{session["name"]}}
                     </a>
                 </li>
