@@ -10,16 +10,19 @@
       <div class="footer-links">
         <ul>
           <li>
-            <img src="./public/icons/instagram.svg" class="footer-link-icon"></img>
-            <a href="https://instagram.com/nss_mit" target="_blank">Instagram</a>
+            <a href="https://instagram.com/nss_mit" target="_blank">
+              <img src="./public/icons/instagram.svg" class="footer-link-icon"></img>
+              Instagram</a>
           </li>
           <li>
+            <a href="https://www.facebook.com/groups/nssmit12/" target="_blank">
             <img src="./public/icons/facebook.svg" class="footer-link-icon"></img>
-            <a href="https://www.facebook.com/groups/nssmit12/" target="_blank">Facebook</a>
+              Facebook</a>
           </li>
           <li>
+            <a href="index.php#contact">
             <img src="./public/icons/pen.svg" class="footer-link-icon"></img>
-            <a href="index.php#contact">Write to us</a>
+              Write to us</a>
           </li>       
         </ul>
       </div>
