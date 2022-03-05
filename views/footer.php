@@ -11,12 +11,16 @@
         <ul>
           <li>
             <img src="./public/icons/instagram.svg" class="footer-link-icon"></img>
-            <a href="https://instagram.com/nss_mit">Instagram</a>
+            <a href="https://instagram.com/nss_mit" target="_blank">Instagram</a>
           </li>
           <li>
             <img src="./public/icons/facebook.svg" class="footer-link-icon"></img>
-            <a href="https://www.facebook.com/groups/nssmit12/">Facebook</a>
-          </li>          
+            <a href="https://www.facebook.com/groups/nssmit12/" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <img src="./public/icons/pen.svg" class="footer-link-icon"></img>
+            <a href="index.php#contact">Write to us</a>
+          </li>       
         </ul>
       </div>
     </div>
@@ -46,13 +50,13 @@
   }
   .footer-links ul li{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 20px auto;
   }
   .footer-link-icon{
     filter: invert(100%);
     padding: 3px;    
-    margin-right: 5px;
+    margin-right: 10px;
   }
   a{
     text-decoration: none;
