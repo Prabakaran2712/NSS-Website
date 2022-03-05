@@ -4,17 +4,18 @@
       <div class="footer-about">
         <h2 class="display-6">National Service Scheme</h2>
         <h4 class="lead">Anna University, MIT Campus</h4>
-        <p class="py-3">Write to us: <a href="mailto:mail@mail.com" class="footer-mail">mail@mail.com</a></p>
+        <!-- <p class="py-3">Write to us: <a href="mailto:mail@mail.com" class="footer-mail">mail@mail.com</a></p> -->
+        <small>Developed by <a href="incharges.php?webTeamExpand=true#webTeam">NSS web team</a></small>
       </div>
       <div class="footer-links">
         <ul>
           <li>
             <img src="./public/icons/instagram.svg" class="footer-link-icon"></img>
-            Instagram
+            <a href="https://instagram.com/nss_mit">Instagram</a>
           </li>
           <li>
             <img src="./public/icons/facebook.svg" class="footer-link-icon"></img>
-            Facebook
+            <a href="https://www.facebook.com/groups/nssmit12/">Facebook</a>
           </li>          
         </ul>
       </div>
@@ -52,6 +53,16 @@
     filter: invert(100%);
     padding: 3px;    
     margin-right: 5px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: #ddd;
+  }
+  small{
+    font-size: 12px;
   }
 </style>
 
