@@ -83,6 +83,11 @@ margin-bottom: 30px;
     font-size: large;
     opacity: 1;
 }
+.title-program-officers{
+   margin-top: 100px;
+   margin-bottom: 40px;
+    text-align: center;
+}
 @media screen and (max-width: 1136px) {
  .grid-container {
   width: 100%;
@@ -100,58 +105,10 @@ margin-bottom: 30px;
 }
 }
 @media screen and (max-width: 454px) {
-  .card-container{
-width: auto;
-height: 450px;
-background: #FFF;
-border-radius: 6px;
-box-shadow: 0px 1px 10px 1px #000;
-overflow: hidden;
-display: inline-block;
-}
-.upper-container{
-height: 140px;
-background: #303983;
-}
-.image-container{
-background: white;
-width: 80px;
-height: 80px;
-border-radius: 50%;
-padding: 5px;
-transform: translate(105px,100px);
-}
-.image-container img{
-width: 70px;
-height: 70px;
-border-radius: 50%;
-}
-.lower-container{
-height: 280px;
-background: #FFF;
-padding: 20px;
-padding-top: 40px;
-text-align: center;
-}
-  .lower-container h3, .lower-container h4{
-box-sizing: border-box;
-line-height: 1;
-color: #000;
-}
-.lower-container h4{
-opacity:   .9;
-font-weight: bold;
-color: #303983;
-}
-}
-.title-program-officers{
-   margin-top: 100px;
-   margin-bottom: 40px;
-    text-align: center;
-}
+
 .title-program-officers h1{
 color: #000;
-}
+}}
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <?php include 'views/config.php';
