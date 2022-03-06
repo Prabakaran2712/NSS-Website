@@ -104,7 +104,7 @@
               </ul>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link text-light" href="#">Awards</a>
+              <a class="nav-link text-light" href="awards.php">Awards</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="./sessions.php">Sessions</a>
