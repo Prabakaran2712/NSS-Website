@@ -106,9 +106,30 @@
             <li class="nav-item me-3">
               <a class="nav-link text-light" href="awards.php">Awards</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-light" href="./sessions.php">Sessions</a>
-            </li>      
+            </li>       -->
+            <li class="nav-item dropdown me-3">
+              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                Sessions
+              </a>
+              <ul class="dropdown-menu custom-nav-dropdown-color">
+                <li><a class="dropdown-item text-light" href="./recent-sessions.php">
+                  <img src="./public/icons/star.svg" alt="recent" width="20px" class="navbar-icon me-1">
+                  Recent Sessions
+                </a></li>
+                <li><a class="dropdown-item text-light" href="./sessions.php">
+                <img src="./public/icons/list.svg" alt="recent" width="20px" class="navbar-icon me-1">
+                  All Sessions
+                </a></li>
+              </ul>
+            </li>
         </div>
       </div>
     </nav>
+
+    <style>
+      .navbar-icon{
+        filter: invert(100%);
+      }
+    </style>
