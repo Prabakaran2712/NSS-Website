@@ -41,9 +41,9 @@ line-height: 1.5;
 color: #000;
 }
 .lower-container h4{
-color: #303983;
 opacity:   .9;
 font-weight: bold;
+color: #303983;
 }
 .lower-container p{
 font-size: 16px;
@@ -101,8 +101,8 @@ margin-bottom: 30px;
 }
 @media screen and (max-width: 454px) {
   .card-container{
-width: 270px;
-height: 360px;
+width: auto;
+height: 450px;
 background: #FFF;
 border-radius: 6px;
 box-shadow: 0px 1px 10px 1px #000;
@@ -119,7 +119,7 @@ width: 80px;
 height: 80px;
 border-radius: 50%;
 padding: 5px;
-transform: translate(90px,100px);
+transform: translate(105px,100px);
 }
 .image-container img{
 width: 70px;
@@ -137,6 +137,11 @@ text-align: center;
 box-sizing: border-box;
 line-height: 1;
 color: #000;
+}
+.lower-container h4{
+opacity:   .9;
+font-weight: bold;
+color: #303983;
 }
 }
 .title-program-officers{
