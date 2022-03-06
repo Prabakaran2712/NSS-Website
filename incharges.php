@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <?php require('views/header.php'); ?>
 <!-- angularjs -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -263,19 +262,21 @@
   </div>
 
   <!-- design team -->
-  <h1 class="display-2 mt-5 my-3">Design Team</h1>
+  <h1 class="display-2 mt-5 my-3" id="webTeam">Design Team</h1>
 
   <div class="row justify-content-center">
 
 <div class="accordion col-md-8" id="accordion3">
 
   <div class="accordion-item my-3">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#web">
+    <h2 class="accordion-header">      
+        <button 
+        class="accordion-button <?php if(!isset($_GET['webTeamExpand'])) echo 'collapsed'; ?>" data-bs-toggle="collapse" data-bs-target="#web">          
         Website
       </button>
     </h2>
-    <div id="web" class="accordion-collapse collapse" data-bs-parent="#accordion2">
+    <div id="web" 
+    class="accordion-collapse collapse <?php if(isset($_GET['webTeamExpand'])) echo 'show'; ?>" data-bs-parent="#accordion2">
       <div class="accordion-body">
       <table class="table table-striped">
             <thead>

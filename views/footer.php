@@ -4,18 +4,26 @@
       <div class="footer-about">
         <h2 class="display-6">National Service Scheme</h2>
         <h4 class="lead">Anna University, MIT Campus</h4>
-        <p class="py-3">Write to us: <a href="mailto:mail@mail.com" class="footer-mail">mail@mail.com</a></p>
+        <!-- <p class="py-3">Write to us: <a href="mailto:mail@mail.com" class="footer-mail">mail@mail.com</a></p> -->
+        <small>Developed by <a href="incharges.php?webTeamExpand=true#webTeam">NSS web team</a></small>
       </div>
       <div class="footer-links">
         <ul>
           <li>
-            <img src="./public/icons/instagram.svg" class="footer-link-icon"></img>
-            Instagram
+            <a href="https://instagram.com/nss_mit" target="_blank">
+              <img src="./public/icons/instagram.svg" class="footer-link-icon"></img>
+              Instagram</a>
           </li>
           <li>
+            <a href="https://www.facebook.com/groups/nssmit12/" target="_blank">
             <img src="./public/icons/facebook.svg" class="footer-link-icon"></img>
-            Facebook
-          </li>          
+              Facebook</a>
+          </li>
+          <li>
+            <a href="index.php#contact">
+            <img src="./public/icons/pen.svg" class="footer-link-icon"></img>
+              Write to us</a>
+          </li>       
         </ul>
       </div>
     </div>
@@ -45,13 +53,23 @@
   }
   .footer-links ul li{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 20px auto;
   }
   .footer-link-icon{
     filter: invert(100%);
     padding: 3px;    
-    margin-right: 5px;
+    margin-right: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: #ddd;
+  }
+  small{
+    font-size: 12px;
   }
 </style>
 

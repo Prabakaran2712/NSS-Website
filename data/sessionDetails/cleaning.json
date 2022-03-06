@@ -2,15 +2,33 @@
     "events": [
       {
         "id": "1",
-        "title": "cleaning 2017",
-        "content": "drug session",
-        "image": "./public/img/sessions/ing2016.png"
+        "title": "Campus Cleaning Session",
+        "content": "A cleaning session had been organised on the premises of our MIT campus. The teams were split and cleaning had been done. Also samplings had been watered in the respective areas.",
+        "image": "./public/img/sessions/cleaning/campus_cleaning.png"
       },
       {
         "id": "2",
-        "title": "123 json",
-        "content": "mic test 123",
-        "image": "./public/img/sessions/ing2016.png"
+        "title": "Mass Cleaning Session",
+        "content": "Mass cleaning was yearly activitybeing organized by NSS volunteers in which every student of MIT come together in order make the campus clean and safe from external health issues.",
+        "image": "./public/img/sessions/cleaning/mass_cleaning.png"
+      },
+      {
+        "id": "3",
+        "title": "Chitlapakkam Park Cleaning Session",
+        "content": "Chitlapakkam children’s  park was cleaned by  NSS senior volunteers .Park  was cleaned neatly and made litter free zone .",
+        "image": "./public/img/sessions/cleaning/park_cleaning.png"
+      },
+      {
+        "id": "4",
+        "title": "Swachh Bharat Mission",
+        "content": "The first session of this semester was held on 19th December 2019 (Thursday).Cleaning session was conducted. The first year students eagerly participated in cleaning the college premises. Administrative block , library and several departments of the college were cleaned.",
+        "image": "./public/img/sessions/cleaning/swatchBharath.png"
+      },
+      {
+        "id": "5",
+        "title": "Chitlapakkam Library Cleaning Session",
+        "content": "A cleaning session had been organised on 25th February, 2020. Our first year NSS volunteers had actively participated in cleaning, plantation and watering the plants on the premises of our college. Also volunteers involved in Chitlapakkam park cleaning and in arranging books in the Chitlapakkam library.",
+        "image": "./public/img/sessions/cleaning/library_cleaning.png"
       }
     ]
   }

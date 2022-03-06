@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container" id="contact">
     <h1 class="display-4 mt-5">Contact Us</h1>
     <form class="form-body mb-5" id="contactForm">
         <div class="mb-3">
