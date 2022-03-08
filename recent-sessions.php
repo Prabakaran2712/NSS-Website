@@ -19,8 +19,8 @@
         <div class="col" id="curSession">
             <div class="container">                                        
                 <h3 class="display-6 mt-3">{{activeSession['title']}}</h3>
-                <img class="img-fluid recent-session-img" src="{{activeSession['image']}}" alt="session-image">
-                <p class="fs-6">{{activeSession['content']}}</p>
+                <img class="img-fluid" src="{{activeSession['image']}}" alt="session-image">
+                <p class="mt-3 fs-6">{{activeSession['content']}}</p>
             </div>
         </div>
     </div>
