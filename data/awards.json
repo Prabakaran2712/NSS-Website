@@ -1,0 +1,22 @@
+{
+  "awards": [
+    {
+      "id": 1,
+      "title": "Award 1",
+      "content": "content of award 1",
+      "image": "./public/img/sessions/recent/itIndustry.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Award 2",
+      "content": "content of award 2",
+      "image": "./public/img/sessions/recent/itIndustry.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Award 3",
+      "content": "content of award 3",
+      "image": "./public/img/sessions/recent/itIndustry.jpg"
+    }
+  ]
+}

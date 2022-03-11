@@ -1,6 +1,52 @@
 <?php require('./views/header.php'); ?>
-<div class="container">
-    <h1 class="my-5 pt-5">AWARDS</h1>
-    <p class="my-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique quam, quas possimus voluptate tenetur ipsa quaerat. Nesciunt facilis harum veniam optio libero mollitia dignissimos, doloribus unde autem odio magni natus possimus quasi, eos pariatur aliquam dolores numquam, voluptatem reiciendis! Nostrum ipsum est velit veniam veritatis recusandae, nesciunt accusantium vero aut doloribus minus perferendis? Labore fugit accusantium minima excepturi harum necessitatibus dolores nesciunt, porro impedit voluptatem, exercitationem sapiente enim libero aut! Distinctio quidem laudantium optio, inventore a quis quam rerum facere ipsam ex voluptatum sint temporibus mollitia maiores deleniti nesciunt perspiciatis molestiae expedita saepe consequatur obcaecati nulla veritatis, maxime reiciendis. Officia.</p>
-</div>
+
+
+<div id="root" class="container"></div>
+
+<!-- react scripts -->
+<script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
+
+<!-- Be sure to remove this babel transformer on production -->
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<script type="text/javascript">
+    const awards = <?php json_encode(require('./data/awards.json')); ?>["awards"];
+</script>
+
+<script type="text/jsx" src="./react-scripts/awards/components/Title.js"></script>
+<script type="text/jsx" src="./react-scripts/awards/components/Sidebar.js"></script>
+<script type="text/jsx" src="./react-scripts/awards/components/Content.js"></script>
+<script type="text/jsx" src="./react-scripts/awards/App.js"></script>
+
+<style>
+    .activeAward{
+        color: grey;
+        cursor: text !important;
+    }
+    .activeAward:hover{
+        color: grey;
+    }
+    .inactiveAward{
+        color: #303983;
+    }
+    .inactiveAward:hover {
+        font-size: 17px;
+    }
+    .Award-img{
+        max-width: 500px;
+        display: block;
+        border-radius: 10px;
+        margin: 20px auto;
+    }
+    .awards-list{
+        text-align: left;
+        list-style-type: none;
+    }
+    .awards-list li{
+        margin: 20px auto;
+        cursor: pointer;
+    }
+</style>
+
 <?php require('./views/footer.php'); ?>

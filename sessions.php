@@ -75,6 +75,17 @@
     .flex-item{
         margin: 10px;
     }
+    .session-list{
+        text-align: left;
+        list-style-type: none;
+    }
+    .session-list li{
+        margin: 20px auto;
+    }
+    .session-list li a{
+        text-decoration: none;
+        cursor: pointer;
+    }
     @media (min-width: 992px) { 
         .accordion-body{
             flex-wrap: nowrap;
@@ -111,19 +122,5 @@
 
     })
 </script>
-
-<style>
-    .session-list{
-        text-align: left;
-        list-style-type: none;
-    }
-    .session-list li{
-        margin: 20px auto;
-    }
-    .session-list li a{
-        text-decoration: none;
-        cursor: pointer;
-    }
-</style>
 
 <?php require './views/footer.php'; ?>

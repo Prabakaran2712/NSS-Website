@@ -40,45 +40,6 @@
     .inactiveSession:hover {
         font-size: 17px;
     }
-    .recent-session-img{
-        max-width: 500px;
-        display: block;
-        border-radius: 10px;
-        margin: 20px auto;
-    }
-</style>
-
-
-<script>
-    var app = angular.module('angApp', []);
-    app.controller('appCtrl', $scope => {
-        $scope.sessionsList = <?php json_encode(require($recent_session_data_path)); ?>["sessions"];
-        $scope.activeSession = $scope.sessionsList[0];
-        // $scope.sessionData = {
-        //     "Inagural functions": <?php //json_encode(require $session_data_path.'/inagurals.json'); ?>,
-        //     "Awareness sessions": <?php //json_encode(require $session_data_path.'/awareness.json'); ?>,
-        //     "NGO sessions": <?php //json_encode(require $session_data_path.'/ngo.json'); ?>,
-        //     "Competitions": <?php //json_encode(require $session_data_path.'/competitions.json'); ?>,
-        //     "Interactive sessions": <?php //json_encode(require $session_data_path.'/interactive.json'); ?>,
-        //     "Celebrations": <?php //json_encode(require $session_data_path.'/celebrations.json'); ?>,
-        //     "Cleaning sessions": <?php // json_encode(require $session_data_path.'/cleaning.json'); ?>,
-        //     "Other sessions": <?php //json_encode(require $session_data_path.'/others.json'); ?>,
-        // };        
-        // $scope.currentSession = $scope.sessionData[$scope.activeSession];
-        
-        // // re render current session when active session changes
-        // $scope.$watch('activeSession', () => {
-        //     $scope.currentSession = $scope.sessionData[$scope.activeSession];
-        // });
-
-        $scope.changeActiveSession = (session) => {
-            $scope.activeSession = session;
-        }
-
-    })
-</script>
-
-<style>
     .session-list{
         text-align: left;
         list-style-type: none;
@@ -91,5 +52,18 @@
         cursor: pointer;
     }
 </style>
+
+
+<script>
+    var app = angular.module('angApp', []);
+    app.controller('appCtrl', $scope => {
+        $scope.sessionsList = <?php json_encode(require($recent_session_data_path)); ?>["sessions"];
+        $scope.activeSession = $scope.sessionsList[0];
+        $scope.changeActiveSession = (session) => {
+            $scope.activeSession = session;
+        }
+
+    })
+</script>
 
 <?php require './views/footer.php'; ?>
