@@ -1,12 +1,10 @@
-<div style="width:100%;;margin:0px;padding:0px;height:auto;background-color:white;margin-top:-16px" id="bgimg">
-  <div  class="container-fluid mt-3" style="margin:0px;padding:0px;">
-    <div class="col-sm-12" style="height:500px;padding-left:50px; background-image:url(public/img/home.png);background-size:100% 500px;background-repeat:no-repeat;float:none">
-      
-      <center id="hometext" >
-      <p style="padding-top:55px;" id="msg">WELCOME</p>
-      <p style="" id="msg">TO</p>
-      <p style="">NATIONAL SERVICE SCHEME</p>
-      </center>
+<div>
+    <div id="bg-image">     
+      <div id="hometext">
+        <p id="msg">WELCOME</p>
+        <p>TO</p>
+        <p>NATIONAL SERVICE SCHEME</p>
+      </div>
   </div>
 </div>
   <div style="height:30px;">
@@ -15,7 +13,7 @@
     <h2 style="text-align: center;font-size:25px;color:white">Events</h2>
   </div>
   <marquee class="news-content" width="100%" direction="right" height="30px" style="background-color:white;">
-  <center>
+  <div id="hometext" style="text-align:center">
   <?php
     include 'config.php';
     $sql="select*from events";
@@ -26,7 +24,7 @@
 
 
   ?>
-  </center>
+  </div>
     </marquee>
   </div>
 
@@ -68,3 +66,32 @@ if($flag==1){
     echo '</div></div>';
       ?>
 </div>
+
+<style>
+  #bg-image{
+    background-image:url(public/img/home.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: 100vw;
+  }  
+  /* @media only screen and (max-width: 10px){
+    #bg-image{
+      height: 50vh;
+    }
+  } */
+  @media only screen and (min-width: 420px){
+    #bg-image{
+      min-height: 50vh;
+    }
+  }
+  @media only screen and (min-width: 650px){
+    #bg-image{
+      min-height: 70vh;
+    }
+  }
+  @media only screen and (min-width: 600px){
+    #bg-image{
+      min-height: 80vh;
+    }
+  }
+</style>
