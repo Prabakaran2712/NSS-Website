@@ -113,3 +113,8 @@ span{
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
+#hometext p{
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #000000;
+}
