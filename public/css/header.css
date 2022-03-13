@@ -23,6 +23,9 @@
 }
  
  @media (min-width:992px) {
+    #hometext p{
+        font-size: 40px;
+      }
     .only-large{
        display: block;
     }

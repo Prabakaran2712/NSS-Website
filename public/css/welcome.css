@@ -113,3 +113,31 @@ span{
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
+#hometext p{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+@media only screen and (min-width: 420px){
+  #msg{
+    padding-top: 10vh;
+  }
+}
+@media only screen and (min-width: 650px){
+  #msg{
+    padding-top: 20vh;
+  }
+}
+@media only screen and (min-width: 600px){
+  #hometext p{
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 720px){
+  #hometext p{    
+    font-size: 50px;
+  }
+}
