@@ -102,7 +102,8 @@
             country: gdata.country_name,
             pincode: gdata.zipcode,
           }
-        }).fail(()=>{
+        })
+      }).fail(()=>{
           $.ajax({
           type: "POST",
           url: "log.php",
@@ -112,7 +113,6 @@
           }
         })
         })
-      })
     }).fail(()=>{
           $.ajax({
           type: "POST",
