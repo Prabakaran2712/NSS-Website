@@ -2,16 +2,29 @@
     "events": [
       {
         "id": "1",
-        "title": "celebrations 2020",
-        "content": "asdf session",
-        "image": "./public/img/sessions/ing2016.png"
+        "title": "Indepedence Day",
+        "content": "NSS First year volunteers participated in the Independence day celebrations at CEG campus along with Senior volunteers and NSS Staff coordinators after hoisting the flag in MIT campus. Senior volunteers were awarded medals for their best volunteering in the year 2016 at CEG Campus, Anna University headed by vice chancellor.",
+        "image": "./public/img/sessions/celebrations/inde2016.png"
       },
       {
         "id": "2",
-        "title": "123 json",
-        "content": "mic test 123",
-        "image": "./public/img/sessions/ing2016.png"
+        "title": "Republic Day",
+        "content": "NSS volunteers participated in flag hoisting held in MIT campus. NSS senior volunteers were awarded medals for their best servicing in the year in CEG campus, Anna University in the presence of vice chancellor. India became a republic nation on 26th January, 1950. To praise our mother, we are celebrating the republic day on every 26th January. The NSS volunteers of our college are awarded with medals and achievement certificates for their good volunteering during the NSS camp held during the summer holidays.",
+        "image": "./public/img/sessions/celebrations/repub2016.png"
+      },
+      {
+        "id": "3",
+        "title": "NSS Day",
+        "content": "Competitions were conducted for first year students and school childrens to celebrate  NSS day. The events are essay writing, Tamil & English poetry, slogan, speech, drawing, debate, miming.",
+        "image": "./public/img/sessions/celebrations/nssDay.png"
+      },
+      {
+        "id": "4",
+        "title": "Sports Day",
+        "content": "Sports day celebration was conducted in MIT ANNEXURE on 01.04.2019.First year NSS boys and girls took part in march past of sports day celebration.NSS Girls won first prize for march past and boys won the second prize.",
+        "image": "./public/img/sessions/celebrations/sportsDay.png"
       }
     ]
   }
+  
   
