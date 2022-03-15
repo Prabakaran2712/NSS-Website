@@ -1,0 +1,21 @@
+.activeView{
+    color: grey;
+    cursor: text !important;
+}
+.activeView:hover{
+    color: grey;
+}
+.inactiveView{
+    color: #303983;
+}
+.inactiveView:hover {
+    font-size: 17px;
+}
+.views-list{
+    text-align: left;
+    list-style-type: none;
+}
+.views-list li{
+    margin: 20px auto;
+    cursor: pointer;
+}

@@ -9,8 +9,8 @@ const App = () => {
         <div className="mt-3 mb-5">
             <Title text="Awards" />
             <div className="row">
-                <SideBar changeCurAward={changeCurAward} curAward={curAward} />
-                <Content curAward={curAward} />
+                <SideBar views={awards} curView={curAward} changeCurView={changeCurAward}  />
+                <AwardContent award={curAward} />
             </div>
         </div>
     );

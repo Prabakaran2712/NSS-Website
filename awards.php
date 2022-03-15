@@ -14,38 +14,18 @@
     const awards = <?php json_encode(require('./data/awards.json')); ?>["awards"];
 </script>
 
-<script type="text/jsx" src="./react-scripts/awards/components/Title.js"></script>
-<script type="text/jsx" src="./react-scripts/awards/components/Sidebar.js"></script>
-<script type="text/jsx" src="./react-scripts/awards/components/Content.js"></script>
+<script type="text/jsx" src="./react-scripts/components/Title.js"></script>
+<script type="text/jsx" src="./react-scripts/components/Sidebar.js"></script>
+<script type="text/jsx" src="./react-scripts/awards/AwardContent.js"></script>
 <script type="text/jsx" src="./react-scripts/awards/App.js"></script>
 
-<style>
-    .activeAward{
-        color: grey;
-        cursor: text !important;
-    }
-    .activeAward:hover{
-        color: grey;
-    }
-    .inactiveAward{
-        color: #303983;
-    }
-    .inactiveAward:hover {
-        font-size: 17px;
-    }
+<link rel="stylesheet" href="./react-scripts/global.css">
+<style>    
     .Award-img{
         max-width: 500px;
         display: block;
         border-radius: 10px;
         margin: 20px auto;
-    }
-    .awards-list{
-        text-align: left;
-        list-style-type: none;
-    }
-    .awards-list li{
-        margin: 20px auto;
-        cursor: pointer;
     }
 </style>
 
