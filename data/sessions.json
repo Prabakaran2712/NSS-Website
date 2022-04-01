@@ -1,12 +1,12 @@
 {
   "sessions": [
-    { "name": "Inagural functions", "store": "inagurals.json" },
-    { "name": "Awareness sessions", "store": "awareness.json" },
-    { "name": "NGO sessions", "store": "awareness.json" },
-    { "name": "Competitions", "store": "awareness.json" },
-    { "name": "Interactive sessions", "store": "awareness.json" },
-    { "name": "Celebrations", "store": "awareness.json" },
-    { "name": "Cleaning sessions", "store": "awareness.json" },
-    { "name": "Other sessions", "store": "awareness.json" }
+    { "id": 1, "title": "Inagural functions", "store": "inagurals.json" },
+    { "id": 2, "title": "Awareness sessions", "store": "awareness.json" },
+    { "id": 3, "title": "NGO sessions", "store": "awareness.json" },
+    { "id": 4, "title": "Competitions", "store": "awareness.json" },
+    { "id": 5, "title": "Interactive sessions", "store": "awareness.json" },
+    { "id": 6, "title": "Celebrations", "store": "awareness.json" },
+    { "id": 7, "title": "Cleaning sessions", "store": "awareness.json" },
+    { "id": 8, "title": "Other sessions", "store": "awareness.json" }
   ]
 }
