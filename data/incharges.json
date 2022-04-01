@@ -50,8 +50,8 @@
     { "name": "Bharath M", "reg": "2019503509" },
     { "name": "Divyasharshini S P", "reg": "2019504020" }
   ],
-  "treasurer": { "name": "Deepajothi S K", "reg": "2019504016" },
-  "jointTreasurer": { "name": "Lokesh Aravind R", "reg": "2019502024" },
+  "treasurer": [{ "name": "Deepajothi S K", "reg": "2019504016" }],
+  "jointTreasurer": [{ "name": "Lokesh Aravind R", "reg": "2019502024" }],
   "regularActivitiesIncharges": [
     { "name": "Gunalan A R", "reg": "2019502521" },
     { "name": "Gokul R", "reg": "2019506032" },

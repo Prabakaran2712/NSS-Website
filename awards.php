@@ -16,8 +16,8 @@
 
 <script type="text/jsx" src="./react-scripts/components/Title.js"></script>
 <script type="text/jsx" src="./react-scripts/components/Sidebar.js"></script>
-<script type="text/jsx" src="./react-scripts/awards/AwardContent.js"></script>
-<script type="text/jsx" src="./react-scripts/awards/App.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/awards/AwardContent.js"></script>
+<script type="text/jsx" src="./react-scripts/pagea/awards/App.js"></script>
 
 <link rel="stylesheet" href="./react-scripts/global.css">
 <style>    
