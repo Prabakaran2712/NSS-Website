@@ -20,7 +20,7 @@
             $out_err = "Oops! We couldn't find your account";
         } else {
             $arr = mysqli_fetch_all($result, MYSQLI_ASSOC)[0];
-            if (sha1($_POST['password'])==$arr['password']) {
+            if (password_verify($_POST['password'], $arr['password'])) {
                 // password match success redirect to respective page
                 $_SESSION['user'] = $arr['username'];
                 $_SESSION['is_admin'] = $arr['isAdmin'];
