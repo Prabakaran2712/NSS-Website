@@ -2,21 +2,15 @@
   "awards": [
     {
       "id": 1,
-      "title": "Award 1",
-      "content": "content of award 1",
-      "image": "./public/img/sessions/recent/itIndustry.jpg"
+      "title": "Best NSS Unit 2021",
+      "content": "Extremely delighted to receive best nss unit award for the year 2020-2021.We thank all the volunteers for their support and we also thank our Dean and program officers for their support and guidance.We also congratulate our program officer Mr.Manoj sir for receiving best program officer award for this academic year",
+      "image": "./public/img/awards/2021.png"
     },
     {
       "id": 2,
-      "title": "Award 2",
-      "content": "content of award 2",
-      "image": "./public/img/sessions/recent/itIndustry.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Award 3",
-      "content": "content of award 3",
-      "image": "./public/img/sessions/recent/itIndustry.jpg"
+      "title": "Best NSS Unit 2019",
+      "content": "The Overall University Award Ceremony was held at College of Engineering, Guindy on October 15, 2019.Dr. G.Rajesh was awarded the Best Regional Coordinator in Chennai.The Best Unit Award was awarded to Unit 7 which was under the guidance of Dr. G.Kumaresan.P. Nachimuthu of final year has been awarded the best volunteer award.",
+      "image": "./public/img/awards/2019.jpg"
     }
   ]
 }
