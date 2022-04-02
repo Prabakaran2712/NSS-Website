@@ -57,14 +57,14 @@
 
             <!-- expanded text on large screens -->
             <div class="col only-large">
-              <h5 id="title">Anna University, MIT Campus</h5>
-              <h5 id="title" style="color: #303983;">National Service Scheme</h5>
+              <h1 class="fw-bold" style="color: #303983;">National Service Scheme</h1>
+              <h5 class="lead">Anna University, MIT Campus</h5>
             </div>
 
             <!-- acronyms on small screens -->
             <div class="col only-small">
-              <h5 id="title">MIT</h5>
-              <h5 id="title" style="color: #303983;">NSS</h5>
+              <h1 class="fw-bold" style="color: #303983;">NSS</h1>
+              <h5 >MIT</h5>
             </div>
 
           </div>
@@ -108,9 +108,6 @@
             <li class="nav-item me-3">
               <a class="nav-link text-light" href="awards.php">Awards</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link text-light" href="./sessions.php">Sessions</a>
-            </li>       -->
             <li class="nav-item dropdown me-3">
               <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                 Sessions
@@ -123,6 +120,19 @@
                 <li><a class="dropdown-item text-light" href="./sessions.php">
                 <img src="./public/icons/list.svg" alt="recent" width="20px" class="navbar-icon me-1">
                   All Sessions
+                </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-3">
+              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                Camps
+              </a>
+              <ul class="dropdown-menu custom-nav-dropdown-color">
+                <li><a class="dropdown-item text-light" href="./camp.php?year=2022">                  
+                  2022
+                </a></li>
+                <li><a class="dropdown-item text-light" href="./camp.php?year=2019">
+                  2019
                 </a></li>
               </ul>
             </li>

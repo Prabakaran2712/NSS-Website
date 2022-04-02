@@ -1,9 +1,8 @@
-const SessionContent = ({ session }) => {
-    const events = sessionData[session]["events"]
+const AccordionList = ({ events, title }) => {
     return <div class="col" id="curSession">
         <div class="row">
             <div class="col-fluid">
-                <h3 class="display-6 mt-3">{session}</h3>
+                <h3 class="display-6 mt-3">{title}</h3>
                 {events && events.map(event =>
                     <div class="accordion" id="accordion3">
                         <div class="accordion-item my-3">

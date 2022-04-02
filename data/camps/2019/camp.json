@@ -1,0 +1,90 @@
+{
+  "year": 2019,
+  "noOfDays": 5,
+  "1": {
+    "events": [
+      {
+        "id": "2",
+        "title": "CHITLAPAKKAM LAKE CLEANING",
+        "content": "Chitlapakkam lake cleaning was done by around 70 NSS volunteers with the help of Chitlapakkam Risers NGO.The local people encouraged the volunteers and gladly expressed their gratitude towards them as the volunteers actively involved in cleaning.",
+        "image": "./public/img/camps/2019/day1/CHITLAPAKKAM LAKE CLEANING.png"
+      },
+      {
+        "id": "1",
+        "title": "CAMPUS CLEANING",
+        "content": "Around 100 NSS volunteers were engaged in cleaning the MIT campus and department labs for the benefit of students in MIT.",
+        "image": "./public/img/camps/2019/day1/CAMPUS CLEANING.png"
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "id": "1",
+        "title": "RALLY IN SOMANGALAM VILLAGE",
+        "content": "Rally was conducted on  awareness about  water management ,road safety and plastic avoidance. Around 80 volunteers participated in this event.Local pupils of somangalam were very much inspired by the volunteers.",
+        "image": "./public/img/camps/2019/day2/RALLY IN SOMANGALAM VILLAGE.png"
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "id": "4",
+        "title": "YOGA SESSION",
+        "content": "Our beloved NSS program officer Dr.Neelavathy Paari mam conducted yoga session for all the NSS volunteers.It was a brisk warmup for our volunteers to work for their whole day.",
+        "image": "./public/img/camps/2019/day3/YOGA SESSION.png"
+      },
+      {
+        "id": "3",
+        "title": "SCHOOL CLEANING",
+        "content": "Around 60 volunteers actively participated in cleaning the campus of  Government higher secondary school, Somangalam  which greatly attracted the school students.",
+        "image": "./public/img/camps/2019/day3/SCHOOL CLEANING.png"
+      },
+      {
+        "id": "2",
+        "title": "SCHOOL TEACHING",
+        "content": "Some of our volunteers conducted a motivational session for the students studying 10th, 11th and 12th in Government higher secondary school, Somangalam.",
+        "image": "./public/img/camps/2019/day3/SCHOOL TEACHING.png"
+      },
+      {
+        "id": "1",
+        "title": "SURVEY IN SOMANGALAM VILLAGE",
+        "content": "We conducted a survey in the village Somangalam with around 80 NSS volunteers and some queries like road facilities and water scarcity was reported and dental camp details has been informed to the villagers.",
+        "image": "./public/img/camps/2019/day3/SURVEY IN SOMANGALAM VILLAGE.png"
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "id": "3",
+        "title": "DENTAL CAMP",
+        "content": "We organized a free dental camp for the local people as well as the students of Government higher secondary school, Somangalam with the help of the students of Tagore medical college.",
+        "image": "./public/img/camps/2019/day4/DENTAL CAMP.png"
+      },
+      {
+        "id": "2",
+        "title": "COMPETITION FOR SCHOOL STUDENTS",
+        "content": "The volunteers organized competitions like drawing, paper craft, poetry and essay writing to the students of Government higher secondary school, Somangalam. The students interestingly participated and won many prizes which helps them develop their skills.",
+        "image": "./public/img/camps/2019/day4/COMPETITION FOR SCHOOL STUDENTS.png"
+      },
+      {
+        "id": "1",
+        "title": "EXHIBITION ON NATURAL RESOURCES MANAGEMENT AND ROAD RULE AWARENESS",
+        "content": "Handful of volunteers organized an exhibition on natural resources management, rain water harvesting and road rule awareness to the students of Government higher secondary school, Somangalam. The students were very keen and raised many queries on those topics and earned knowledge.",
+        "image": "./public/img/camps/2019/day4/EXHIBITION ON NATURAL RESOURCES MANAGEMENT AND ROAD RULE AWARENESS.png"
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "id": "1",
+        "title": "COMPETITION FOR PRIMARY SCHOOL STUDENTS",
+        "content": "Competitions like memory game, rhymes, thirukkural chanting, frog jump, running, potato gathering and filling water in vessels were conducted to the students of Government nursery and primary school somangalam and palanthandalam by our volunteers. The students actively participated and won many prizes.",
+        "image": "./public/img/camps/2019/day5/COMPETITION FOR PRIMARY SCHOOL STUDENTS.png"
+      }
+    ]
+  }
+}

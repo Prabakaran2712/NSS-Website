@@ -1,0 +1,130 @@
+{
+  "year": 2022,
+  "noOfDays": 6,
+  "1": {
+    "events": [
+      {
+        "id": "2",
+        "title": "EXPLORATION OF TREE VARIANTS IN MIT CAMPUS",
+        "content": "NSS student volunteers were split into groups and made to count tree variants in MIT campus and data were stored in padlet.",
+        "image": "./public/img/camps/2022/Day1/EXPLORATION OF TREE VARIANTS IN MIT CAMPUS.png"
+      },
+      {
+        "id": "1",
+        "title": "INAUGURATION",
+        "content": "Inauguration of the camp 2022 was held in the presence of Mr.Ganesh, the Head Master of Government Higher Secondary School,Somangalam ,the programme officer of  NSS and the student volunteers.",
+        "image": "./public/img/camps/2022/Day1/INAUGURATION.png"
+      }
+    ]
+  },
+  "2": {
+    "events": [
+      {
+        "id": "4",
+        "title": "YOGA SESSION",
+        "content": "Dr. Neelavathy Pari mam, our programme officer, led a yoga session for all of the NSS volunteers. It brought all of the volunteers a lot of comfort. Stress-relieving meditation and asanas were used to improve mental and physical wellness.",
+        "image": "./public/img/camps/2022/Day2/YOGA SESSION.png"
+      },
+      {
+        "id": "3",
+        "title": "VACCINATION CAMP",
+        "content": "The Vaccination Camp jointly organized by NSS MIT & Primary Govt. Hospital Somangalam .Since 2019, corona has been regarded as a fatal disease, many families losing loved ones and others in severe condition. Corona vaccination is the only way to get rid of it. We (PROGRAMME OFFICERS,NSS VOLUNTEERS) held a vaccination programme in Somangalam Primary Health Centre to ensure the safety of many lives.First and Second dosage of vaccination were made available to the locality people. Along with primary health centre, our volunteers coordinated the vaccination camp.",
+        "image": "./public/img/camps/2022/Day2/VACCINATION CAMP.png"
+      },
+      {
+        "id": "2",
+        "title": "PRIMARY HEALTH CENTER CLEANING",
+        "content": "Volunteers assisted in shifting and arranging of impaired goods, as well as watering plants and trees around the health centre.",
+        "image": "./public/img/camps/2022/Day2/PRIMARY HEALTH CENTER CLEANING.png"
+      },
+      {
+        "id": "1",
+        "title": "VILLAGE SURVEY",
+        "content": "Thirty NSS volunteers involved in a survey conducted in Somangalam to know about their challenges in society, as well as some questions about road facilities and water scarcity.",
+        "image": "./public/img/camps/2022/Day2/villageSurvey.png"
+      }
+    ]
+  },
+  "3": {
+    "events": [
+      {
+        "id": "3",
+        "title": "EXERCISE SESSION",
+        "content": "One of the volunteers gave the other volunteers some fitness advice. It was a good warm-up for our volunteers.",
+        "image": "./public/img/camps/2022/Day3/EXERCISE SESSION.png"
+      },
+      {
+        "id": "2",
+        "title": "SCHOOL CLEANING",
+        "content": "Around 60 volunteers helped in cleaning the campus of the Government higher secondary school in Somangalam, removing plastics. Plastics were gathered and disposed properly without causing harm to the environment.",
+        "image": "./public/img/camps/2022/Day3/SCHOOL CLEANING.png"
+      },
+      {
+        "id": "1",
+        "title": "INTERACTIVE SESSION",
+        "content": "Our final-year volunteers led the interactive session.Volunteers were given the opportunity to speak about their goals and dreams.",
+        "image": "./public/img/camps/2022/Day3/INTERACTIVE SESSION.png"
+      }
+    ]
+  },
+  "4": {
+    "events": [
+      {
+        "id": "3",
+        "title": "GOVERNMENT SCHEME AWARENESS",
+        "content": "NREGA workers were informed about the government schemes accessible to them and the benefits of the schemes by volunteers and our beloved programme officers.",
+        "image": "./public/img/camps/2022/Day4/GOVERNMENT SCHEME AWARENESS.png"
+      },
+      {
+        "id": "2",
+        "title": "GROUND CLEANING",
+        "content": "Our volunteers cleaned and disposed litter and plant residues that had accumulated on the school grounds.",
+        "image": "./public/img/camps/2022/Day4/GROUND CLEANING.png"
+      },
+      {
+        "id": "1",
+        "title": "CAREER GUIDANCE",
+        "content": " MR.PARI and MS.LAVANYA, MIT alumini, presented career advice to the volunteers on civil service tests, shared their experience and problems they had while preparing for it.",
+        "image": "./public/img/camps/2022/Day4/CAREER GUIDANCE.png"
+      }
+    ]
+  },
+  "5": {
+    "events": [
+      {
+        "id": "2",
+        "title": "COMPETITION FOR SCHOOL STUDENTS",
+        "content": "The volunteers held competitions for the pupils of the Government higher secondary school in Somangalam, such as drawing, spelling bee, and quizzes. The pupils excitedly engaged and received numerous awards that aided in the development of their skills. It provided volunteers the opportunity to interact with them.",
+        "image": "./public/img/camps/2022/Day5/COMPETITION FOR SCHOOL STUDENTS.png"
+      },
+      {
+        "id": "1",
+        "title": "YOUTH FOR GREEN INDIA",
+        "content": "Mr.Kapil Dev (GREEN MAN OF CHENNAI) spoke about the benefits of planting trees as well as the issues of deforestation. He also shared his life experiences and obstacles while performing these tasks. Then he presented a plant to our NSS. He had a fantastic rapport with the volunteers.",
+        "image": "./public/img/camps/2022/Day5/YOUTH FOR GREEN INDIA.png"
+      }
+    ]
+  },
+  "6": {
+    "events": [
+      {
+        "id": "3",
+        "title": "SCHOOL TEACHING",
+        "content": "Volunteers met school students and inquire about their aspirations of the future. The volunteers were requested by the students to clarify their doubts. Volunteers gave them encouraging speeches and shared their experiences.",
+        "image": "./public/img/camps/2022/Day6/SCHOOL TEACHING.png"
+      },
+      {
+        "id": "2",
+        "title": "PRIZE DISTRIBUTION",
+        "content": "The winners of the competition held on the 5th Day were awarded prizes. The pupils were overjoyed to receive rewards, and they expressed their gratitude to the volunteers .",
+        "image": "./public/img/camps/2022/Day6/PRIZE DISTRIBUTION.png"
+      },
+      {
+        "id": "1",
+        "title": "WALL PAINTING",
+        "content": "India and Tamilnadu map was painted on the wall and their names were written on the painting by our volunteers .",
+        "image": "./public/img/camps/2022/Day6/WALL PAINTING.png"
+      }
+    ]
+  }
+}

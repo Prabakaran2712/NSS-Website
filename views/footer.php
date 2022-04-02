@@ -2,8 +2,9 @@
   <div class="container">
     <div class="footer-body">
       <div class="footer-about">
-        <h2 class="display-6">National Service Scheme</h2>
-        <h4 class="lead">Anna University, MIT Campus</h4>
+        <h1>National Service Scheme</h1>
+        <h4 class="fw-light">Anna University, MIT Campus</h4>
+        <h6 class="fw-lighter">Chromepet, Chennai - 600044</h6>
         <!-- <p class="py-3">Write to us: <a href="mailto:mail@mail.com" class="footer-mail">mail@mail.com</a></p> -->
         <small>Developed by NSS web team</small>
       </div>

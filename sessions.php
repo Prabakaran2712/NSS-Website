@@ -29,7 +29,7 @@
 
 <script type="text/jsx" src="./react-scripts/components/Title.js"></script>
 <script type="text/jsx" src="./react-scripts/components/Sidebar.js"></script>
-<script type="text/jsx" src="./react-scripts/pages/sessions/SessionContent.js"></script>
+<script type="text/jsx" src="./react-scripts/components/AccordionList.js"></script>
 <script type="text/jsx" src="./react-scripts/pages/sessions/App.js"></script>
 
 <link rel="stylesheet" href="./react-scripts/global.css">

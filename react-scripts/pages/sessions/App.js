@@ -10,7 +10,7 @@ const App = () => {
             <Title text="Sessions" />
             <div className="row">
                 <SideBar views={sessionsList} curView={curSession} changeCurView={changeCurSession} />
-                <SessionContent session={curSession.title} />
+                <AccordionList title={curSession.title} events={sessionData[curSession.title]["events"]} />
             </div>
         </div>
     );
