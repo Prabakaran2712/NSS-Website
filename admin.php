@@ -32,142 +32,37 @@
 
 ?>
 
-<!-- angularjs -->
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<div id="root" class="container"></div>
 
-<div ng-app="angApp" class="container py-3 my-3" ng-controller="adminController">
+<!-- react scripts -->
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 
-    <!-- messages -->
-     <div>
-        <h1 class="col display-4 accent-color mt-5 mb-3">Messages</h1>
-        <div ng-show="messages.length">
-            <div>
-                <input type="checkbox" id="show-only-unread" ng-model="showOnlyUnreadMessages">
-                <label for="show-only-unread" class="text-muted">Show only unread messages</label>
-            </div>
-            <div ng-repeat="message in messages">
-                <div ng-hide="message.message_read == 1 && showOnlyUnreadMessages" class="card w-50 my-3">
-                    <div class="card-body">
-                        <div class="card-title h5">
-                            <span class="display-6">{{ message.email }}</span>
-                            <span ng-show="message.message_read == 0" class="badge bg-success mx-1">New</span>
-                        </div>
-                        <blockquote class="blockquote">
-                            <p>{{ message.message }}</p>
-                        </blockquote>
-                        <div ng-show="message.message_read == 0">
-                            <button ng-click="read($index)" class="btn btn-outline-primary my-3">Mark as read</button>
-                        </div>
-                    </div>
-                    <div class="card-footer text-muted">
-                        Received at {{ message.timestamp }}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div ng-show="messages.length==0 || (showOnlyUnreadMessages && unreadMessages.length==0)">
-            <p class="lead my-3">No messages to show</p>
-        </div>
-    </div>
+<!-- Be sure to remove this babel transformer on production -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <!-- site analytics -->
-    <div>
-        <div class="row align-items-center">
-            <h1 class="col display-4 accent-color mt-5 mb-3">Site analytics</h1>
-            <a href="logout.php" class="col-1 btn accent-bg-color text-light">Logout</a>
-        </div>
-        <div class="my-3 row">
-            <p class="lead col-auto">Total site visits: {{analytics.length}}</p>
-        </div>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">User agent</th>
-                    <th scope="col">City</th>
-                    <th scope="col">Region</th>
-                    <th scope="col">Country</th>
-                    <th scope="col">Time</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr ng-repeat="data in analytics | startFrom:currentPage*pageSize | limitTo:pageSize">
-                    <th scope="col">{{data.index}}</th>
-                    <td style="max-width: 300px;">{{data.ua}}</td>
-                    <td>{{data.city}}</td>
-                    <td>{{data.region}}</td>
-                    <td>{{data.country}}</td>        
-                    <td>{{data.loggedAt}}</td> 
-                </tr>
-            </tbody>
-        </table>
-
-        <!-- pagination -->
-        <div class="row justify-content-center align-items-center" ng-hide="analytics.length/pageSize <= 1">
-            <div class="col-auto">
-                <button class="btn btn-primary" ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">Previous</button>
-            </div>
-            <div class="col-auto">
-                <div class="lead">Page {{currentPage+1}} of {{numberOfPages()}}</div>
-            </div>
-            <div class="col-auto">
-                <button ng-disabled="currentPage >= analytics.length/pageSize - 1" ng-click="currentPage=currentPage+1" class="btn btn-primary">Next</button>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<script>
-    var app = angular.module('angApp', []);
-    app.controller('adminController', $scope => {
-
-        $scope.showOnlyUnreadMessages = true;
-
-        $scope.messages = <?php echo $messages; ?>;
-
-        $scope.$watch('messages', () => {
-            $scope.unreadMessages = $scope.messages.filter(e => e.message_read == 0);
-        }, true)
-
-        $scope.read = n => {
-            id = $scope.messages[n].id;
-            $.ajax({
-                type: "POST",
-                url: "log.php",
-                data: {type: 'markMessageRead', id}
-            }).done(() => {
-                $scope.$apply(() => {
-                    $scope.messages[n].message_read = 1;
-                })
-            })
-        }
-
-        $scope.analytics = <?php echo $analytics; ?>;
-
-        // add index
-        for (let j = 0; j < $scope.analytics.length; j++) {
-            $scope.analytics[j].index = j + 1;
-        }
-
-        // pagination for analytics
-        $scope.currentPage = 0;
-        $scope.pageSize = 10;
-        $scope.numberOfPages = function() {
-            return Math.ceil($scope.analytics.length / $scope.pageSize);
-        }
-
-    })
-
-    // startFrom filter
-    app.filter('startFrom', function() {
-        return function(input, start) {
-            start = +start; //parse to int
-            return input.slice(start);
-        }
-    });
+<script type="text/javascript">
+    const initMessages = <?php echo $messages; ?>;
+    const analytics = <?php echo $analytics; ?>;
 </script>
 
+<script type="text/jsx" src="./react-scripts/components/Title.js"></script>
+<script type="text/jsx" src="./react-scripts/components/Sidebar.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/messages/MessageBody.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/messages/MessageList.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/messages/MessageCard.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/messages/NoMessages.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/messages/ReadCheckBox.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/analytics/AnalyticsBody.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/analytics/VisitCount.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/analytics/AnalyticsTable.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/analytics/RowCount.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/analytics/Pagination.js"></script>
+<script type="text/jsx" src="./react-scripts/pages/admin/App.js"></script>
+
+<link rel="stylesheet" href="./react-scripts/global.css">
+
+   
 <?php
 
 //footer file
