@@ -7,9 +7,13 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <title>National Service Scheme - Madras Institute of Technology, Anna University</title>
+    <meta name="description" content="Welcome to the website of National Service Scheme, Madras Institute of Technology. We takes active part in serving the common man and enabling him to lead a happy life. MIT is not only known for producing sound engineers to the industries but develops and inculates the service notion in every MITian. The service is not confined to just a week in the campus, but beyond all that boundaries, the service needs to be implicated till one's life comes to an end. Our NSS organisation not only encourages service to humanity but stresses the need to live in.">
+    <meta name="robots" content="index, follow">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- nss logo favicon -->
     <link rel="icon" type="image/x-icon" href="./public/icons/favicon.ico">
 
     <!-- Bootstrap CSS -->
@@ -18,23 +22,14 @@
     <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-    <!-- jquery for ajax -->
+    <!-- jquery / ajax -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- Custom font -->
     <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
 
-    <!-- Custom CSS -->
+    <!-- CSS for navbar & title -->
     <link rel="stylesheet" href="public/css/header.css">
-    <link rel="stylesheet" href="public/css/welcome.css">
-    <link rel="stylesheet" href="public/css/history.css">
-    <link rel="stylesheet" href="public/css/activities.css">
-    <link rel="stylesheet" href="public/css/awards.css">
-    <link rel="stylesheet" href="public/css/query.css">
-    <link rel="stylesheet" href="public/css/styles.css">
-
-    <!-- title -->
-    <title>National Service Scheme</title>
 
   </head>
 
