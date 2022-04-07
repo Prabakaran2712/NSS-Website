@@ -17,16 +17,13 @@
   ],
   "website": [
     { "name": "Prabakaran P", "reg": "2020506062" },
-    { "name": "Prasath K", "reg": "2020506066" },
     { "name": "Pradesh G V", "reg": "2020506063" },
     { "name": "Pragadesh B S", "reg": "2020506064" },
+	{ "name": "Prasath K", "reg": "2020506066" },
     {
       "name": "Sufyan Mohamed Nasurudeen",
       "reg": "2020506097"
     },
     { "name": "Karthick V", "reg": "2020507016" },
-    { "name": "Krishna N", "reg": "2020501020" },
-    { "name": "Jayashree V J", "reg": "2020501015" },
-    { "name": "Vignesh D", "reg": "2020501038" }
   ]
 }
