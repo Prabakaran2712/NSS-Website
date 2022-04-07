@@ -6,7 +6,7 @@
         <h4 class="fw-light">Anna University, MIT Campus</h4>
         <h6 class="fw-lighter">Chromepet, Chennai - 600044</h6>
         <!-- <p class="py-3">Write to us: <a href="mailto:mail@mail.com" class="footer-mail">mail@mail.com</a></p> -->
-        <small>Developed by NSS web team</small>
+        <small>Developed by <a href="incharges.php?expand-web">NSS web team</a></small>
       </div>
       <div class="footer-links">
         <ul>
