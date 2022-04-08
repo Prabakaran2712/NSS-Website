@@ -65,7 +65,6 @@ const App = () => {
         </div>
         {/* right */}
         <div class="col-sm-12 col-md-6">
-          <Accordion incharge="facebook" type="design" title="Facebook" />
           <Accordion incharge="drive" type="design" title="Drive" />
         </div>
       </div>
