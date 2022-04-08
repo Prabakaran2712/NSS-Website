@@ -25,9 +25,6 @@
     <!-- jquery / ajax -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- Custom font -->
-    <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
-
     <!-- CSS for navbar & title -->
     <link rel="stylesheet" href="public/css/header.css">
 
