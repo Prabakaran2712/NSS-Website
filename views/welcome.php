@@ -33,9 +33,9 @@
     <div class="row">
   <div class="row" style="background-color:white;height:auto;margin-top:10px;text-align:center;" id="hero">
       <?php
-        echo "<div class='col-sm-4' style='font-size:40px;font-family:Allerta Stencil;color:black;'>".date('M d')."</div>";
-        echo "<div class='col-sm-4' style='font-size:60px;font-family:Allerta Stencil;color:red;'>".date('Y')."</div>";
-        echo "<div class='col-sm-4' style='font-size:40px;font-family:Allerta Stencil;color:black;'>".date('l')."</div></div>";
+        echo "<div class='col-sm-4' style='font-size:40px;color:black;'>".date('M d')."</div>";
+        echo "<div class='col-sm-4' style='font-size:60px;color:red;'>".date('Y')."</div>";
+        echo "<div class='col-sm-4' style='font-size:40px;color:black;'>".date('l')."</div></div>";
 
       include 'config.php';
       $sql="select*from events;";
