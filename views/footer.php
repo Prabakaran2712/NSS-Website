@@ -4,9 +4,11 @@
       <div class="footer-about">
         <h1>National Service Scheme</h1>
         <h4 class="fw-light">Anna University, MIT Campus</h4>
-        <h6 class="fw-lighter">Chromepet, Chennai - 600044</h6>
+        <h5 class="fw-light">Chromepet, Chennai - 600044</h5>
         <!-- <p class="py-3">Write to us: <a href="mailto:mail@mail.com" class="footer-mail">mail@mail.com</a></p> -->
-        <small>Developed by <a href="incharges.php?expand-web">NSS web team</a></small>
+        <small style="display:block">Developed by <a href="incharges.php?expand-web">NSS web team</a></small>
+        <small style="display:block" class="fw-light mt-2">Copyright © 2022 NSS, MIT</small>
+        <small style="display:block" class="fw-light">All rights reserved</small>
       </div>
       <div class="footer-links">
         <ul>
