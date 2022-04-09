@@ -36,7 +36,11 @@
 }
 
 #hero{
-  border-color:#303983;border-style:solid none solid solid;border-radius:5px;
+  border-color:#303983;border-style:solid solid solid solid;border-radius:5px;
+  width:100%;
+  background-color:white;height:auto;
+  margin:0px;
+  text-align:center;
 }
 
 #poster{
