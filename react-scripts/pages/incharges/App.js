@@ -52,20 +52,16 @@ const App = () => {
       </div>
       {/* design team */}
       <Title text="Design Team" />
-      <div class="row justify-content-center">
-        <div class="accordion col-md-8" id="accordion3">
-          <Accordion incharge="website" type="design" title="Website team" />
-        </div>
-      </div>
       <div className="row">
         {/* left */}
         <div class="col-sm-12 col-md-6">
-          <Accordion incharge="posters" type="design" title="Posters" />
+          <Accordion incharge="website" type="design" title="Website team" />
           <Accordion incharge="instagram" type="design" title="Instagram" />
         </div>
         {/* right */}
         <div class="col-sm-12 col-md-6">
           <Accordion incharge="drive" type="design" title="Drive" />
+          <Accordion incharge="posters" type="design" title="Posters" />
         </div>
       </div>
     </div>
