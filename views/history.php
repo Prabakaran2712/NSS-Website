@@ -12,7 +12,7 @@
             </ul>
         </div>
         <div class="col-12 col-md-5">
-            <img src="public/img/1.jpg" alt="Digisolve app on Laptop" class="img-fluid about-images">
+            <img src="public/img/about/about.JPG" style="height:250px;width:100%;" class="img-fluid about-images">
         </div>
     </div>
     <div class="py-3"></div>
@@ -28,6 +28,32 @@
             </ul>
         </div>
     </div>
+    <div class="row">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="public/img/about/1.JPG" class="d-block w-100 ss" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="public/img/about/2.JPG" class="d-block w-100 ss" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="public/img/about/3.JPG" class="d-block w-100 ss" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="public/img/about/4.JPG" class="d-block w-100 ss" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
 </div>
 
 <style>
@@ -42,4 +68,9 @@
         margin: 0 auto;
         max-width: 300px;
     }
+    .ss
+    {
+    height:550px;
+    }
+
 </style>
