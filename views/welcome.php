@@ -9,10 +9,10 @@
 </div>
   <div style="height:30px;">
   <div class="events" style="display: flex;">
-  <div class="event-name" style="width: 100px; background-color:#303983">
-    <h2 style="text-align: center;font-size:25px;color:white">Events</h2>
+  <div class="event-name" style="width: 100px;margin-top:10px; background-color:#303983;box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;">
+    <h2 style="text-align: center;font-size:25px;color:white;">Events</h2>
   </div>
-  <marquee class="news-content" width="100%" direction="right" height="30px" style="background-color:white;">
+  <marquee class="news-content" width="100%" direction="right" height="30px" style="margin-top:10px;background-color:white;box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;">
   <div id="hometext" style="text-align:center">
   <?php
     include 'config.php';
@@ -31,11 +31,11 @@
   </div>
   <div class="container-fluid mt-3">
     <div class="row">
-  <div class="row" style="background-color:white;height:auto;margin-top:10px;text-align:center;" id="hero">
+  <div class="row" id="hero">
       <?php
-        echo "<div class='col-sm-4' style='font-size:40px;color:black;'>".date('M d')."</div>";
-        echo "<div class='col-sm-4' style='font-size:60px;color:red;'>".date('Y')."</div>";
-        echo "<div class='col-sm-4' style='font-size:40px;color:black;'>".date('l')."</div></div>";
+        echo "<div class='col-sm-4' style='font-size:60px;color:black;'>".date('M d')."</div>";
+        echo "<div class='col-sm-4' style='font-size:70px;color:red;'>".date('Y')."</div>";
+        echo "<div class='col-sm-4' style='font-size:60px;color:black;'>".date('l')."</div></div>";
 
       include 'config.php';
       $sql="select*from events;";
