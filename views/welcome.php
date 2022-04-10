@@ -61,7 +61,7 @@
       }
 if($flag==1){
       echo "<div class='col-sm-12' style='margin-top:10px;padding:10px;color:black;font-size:15px;height:auto;border-color:red;border-style:solid;border-radius:5px;'>";
-      echo '<ul id="ename">There are no events today.</ul></div>';}
+      echo '<ul id="ename">No events today. Check back later!</ul></div>';}
       
     echo '</div></div>';
       ?>
