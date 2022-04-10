@@ -12,13 +12,13 @@
             </ul>
         </div>
         <div class="col-12 col-md-5">
-            <img src="public/img/about/about.JPG" style="height:250px;width:100%;" class="img-fluid about-images">
+            <img src="public/img/about/about.JPG" class="img-fluid">
         </div>
     </div>
     <div class="py-3"></div>
     <div class="row my-3">
         <div class="col-12 col-md-4 col-lg-2">
-            <img src="public/img/logo.png" alt="NSS Logo" class="img-fluid about-images" id="nss-logo">
+            <img src="public/img/logo.png" alt="NSS Logo" class="img-fluid" id="nss-logo">
         </div>
         <div class="col-12 col-md-6 col-lg-10">
             <ul class="about-list">
@@ -32,16 +32,16 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="public/img/about/1.JPG" class="d-block w-100 ss" alt="...">
+      <img src="public/img/about/1.JPG" class="d-block img-fluid" alt="slideshow Image">
     </div>
     <div class="carousel-item">
-      <img src="public/img/about/2.JPG" class="d-block w-100 ss" alt="...">
+      <img src="public/img/about/2.JPG" class="d-block img-fluid" alt="slideshow Image">
     </div>
     <div class="carousel-item">
-      <img src="public/img/about/3.JPG" class="d-block w-100 ss" alt="...">
+      <img src="public/img/about/3.JPG" class="d-block img-fluid" alt="slideshow Image">
     </div>
     <div class="carousel-item">
-      <img src="public/img/about/4.JPG" class="d-block w-100 ss" alt="...">
+      <img src="public/img/about/4.JPG" class="d-block img-fluid" alt="slideshow Image">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -63,14 +63,10 @@
     .about-list li{
         padding: 10px 0;
     }
-    .about-images{
-        display: block;       
-        margin: 0 auto;
-        max-width: 300px;
-    }
-    .ss
-    {
-    height:550px;
+    img{
+      border-radius: 5px;
+      margin: 0 auto;
+      display: block;
     }
 
 </style>
