@@ -18,7 +18,7 @@
     <div class="py-3"></div>
     <div class="row my-3">
         <div class="col-12 col-md-4 col-lg-2">
-            <img src="public/img/logo.png" alt="NSS Logo" class="img-fluid" id="nss-logo">
+            <img src="public/img/logo.png" alt="NSS Logo" class="d-block img-fluid" id="nss-logo">
         </div>
         <div class="col-12 col-md-6 col-lg-10">
             <ul class="about-list">
@@ -66,7 +66,6 @@
     img{
       border-radius: 5px;
       margin: 0 auto;
-      display: block;
     }
 
 </style>
