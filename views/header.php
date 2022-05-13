@@ -1,7 +1,8 @@
 <?php
-  if (session_status() === PHP_SESSION_NONE) {
-   session_start();
-  }
+if (session_status() === PHP_SESSION_NONE)
+{
+    session_start();
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -39,105 +40,83 @@
 <!-- IMPORTANT: REMOVE ON PRODUCTION -->
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <!-- logos & title -->
-    <div class="container">
-      
+<div id="header-section" class="py-2">
+  <!-- logos & title -->
+  <div class="container">    
       <div class="row">
-
         <!-- AU logo -->
-        <div class="col d-flex justify-content-start align-self-center">
-          <img src="public/img/au_logo.png" alt="nss-logo" class="img-fluid">
-        </div>
-
+        <div class="col-1 d-flex justify-content-start align-self-center">
+          <img src="public/img/logo.png" alt="nss-logo">
+        </div>        
         <!-- title -->
-        <div class="col-6 d-flex justify-content-center align-self-center">
-
-          <div class="row text-uppercase text-center">
-
-            <!-- expanded text on large screens -->
-            <div class="col only-large">
-              <h1 class="fw-bold" style="color: #303983;">National Service Scheme</h1>
-              <h5 class="lead">Anna University, MIT Campus</h5>
-            </div>
-
-            <!-- acronyms on small screens -->
-            <div class="col only-small">
-              <h1 class="fw-bold" style="color: #303983;">NSS</h1>
-              <h5 >MIT</h5>
-            </div>
-
-          </div>
-
-        </div>
-
+        <div class="col-1 justify-content-start align-self-center">        
+          <div class="text-uppercase text-center">                        
+              <h3 class="fw-bold" style="color: white">NSS</h3>                                     
+          </div>          
+        </div>        
         <!-- MIT logo -->
-        <div class="col d-flex justify-content-end align-self-center">
-          <img src="public/img/college_logo.png" alt="mit-logo" class="img-fluid">
-        </div>
-
-      </div>
-      
-    </div>
-
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark accent-bg-color">
-      <div class="container-fluid">
-        <a class="navbar-brand me-5 ms-3" href="index.php">NSS MIT</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item me-3">
-              <a class="nav-link text-light" aria-current="page" href="index.php">Home</a>
-            </li>
-            <li class="nav-item dropdown me-3">
-              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="col-1 d-flex justify-content-start align-self-center">
+          <img src="public/img/college_logo.png" alt="mit-logo">
+        </div>       
+        <div class="col-8 align-self-center" id="nss-nav">
+          <ul>
+            <li class="nav-item dropdown mx-2 fs-5">
+              <a class=" dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 People
               </a>
-              <ul class="dropdown-menu custom-nav-dropdown-color" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item text-light" href="./programofficers.php">Programme Officers</a></li>
-                <li><a class="dropdown-item text-light" href="./incharges.php">Incharges</a></li>
-                <li><a class="dropdown-item text-light" href="volunteers.php">Volunteers</a></li>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-            <li class="nav-item me-3">
-              <a class="nav-link text-light" href="awards.php">Awards</a>
-            </li>
-            <li class="nav-item dropdown me-3">
-              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+            <li class="mx-2 fs-5"><a href="#">Awards</a></li>
+            <li class="nav-item dropdown mx-2 fs-5">
+              <a class=" dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Sessions
               </a>
-              <ul class="dropdown-menu custom-nav-dropdown-color">
-                <li><a class="dropdown-item text-light" href="./recent-sessions.php">
-                  <img src="./public/icons/star.svg" alt="recent" width="20px" class="navbar-icon me-1">
-                  Recent Sessions
-                </a></li>
-                <li><a class="dropdown-item text-light" href="./sessions.php">
-                <img src="./public/icons/list.svg" alt="recent" width="20px" class="navbar-icon me-1">
-                  All Sessions
-                </a></li>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown me-3">
-              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+            <li class="nav-item dropdown mx-2 fs-5">
+              <a class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Camps
               </a>
-              <ul class="dropdown-menu custom-nav-dropdown-color">
-                <li><a class="dropdown-item text-light" href="./camp.php?year=2022">                  
-                  2022
-                </a></li>
-                <li><a class="dropdown-item text-light" href="./camp.php?year=2019">
-                  2019
-                </a></li>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-        </div>
-      </div>
-    </nav>
+            <li class=" mx-2 fs-5"><a href="#">Contact</a></li>
+          </ul>
+        </div>        
+      </div>      
+    </div>
+  </div>
+</div>
 
-    <style>
-      .navbar-icon{
-        filter: invert(100%);
-      }
-    </style>
+<style>
+  #header-section{
+    background: rgb(57,66,137);
+    background: linear-gradient(90deg, rgba(57,66,137,1) 0%, rgba(74,29,28,1) 50%, rgba(57,66,137,1) 100%);
+    border-radius: 0 0 20% 20%;
+  }
+  #nss-nav{
+    text-align: right;
+  }
+ #nss-nav > ul{
+   list-style-type: none;
+ }
+ #nss-nav > ul > li{
+   display: inline-block;
+ }
+ #nss-nav >ul > li > a{
+   text-decoration: none;
+   color: white;
+   /* color: #303983; */
+ }
+</style>

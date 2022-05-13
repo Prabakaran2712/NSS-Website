@@ -14,15 +14,15 @@
     background-color: red;
 }
 
-.only-large {
+/* .only-large {
     display:none;
- }
+ } */
 
 .only-small {
     display: none;
 }
  
- @media (min-width:992px) {
+ /* @media (min-width:992px) {
     #hometext p{
         font-size: 40px;
       }
@@ -35,4 +35,4 @@
     .only-small{
        display: block;
     }
- }
+ } */

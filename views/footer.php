@@ -64,7 +64,7 @@
     padding: 3px;    
     margin-right: 10px;
   }
-  a{
+  .footer-body a{
     text-decoration: none;
     color: white;
   }
