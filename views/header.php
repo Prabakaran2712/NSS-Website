@@ -42,81 +42,134 @@ if (session_status() === PHP_SESSION_NONE)
 
 <div id="header-section" class="py-2">
   <!-- logos & title -->
-  <div class="container">    
-      <div class="row">
-        <!-- AU logo -->
-        <div class="col-1 d-flex justify-content-start align-self-center">
+  <div class="container" id="nss-header">    
+      <div id="nss-brand">
+        <div>
           <img src="public/img/logo.png" alt="nss-logo">
         </div>        
-        <!-- title -->
-        <div class="col-1 justify-content-start align-self-center">        
-          <div class="text-uppercase text-center">                        
-              <h3 class="fw-bold" style="color: white">NSS</h3>                                     
-          </div>          
-        </div>        
+        <!-- title -->     
+        <div class="text-uppercase text-center mx-3">                        
+          <h3 class="fw-bold" style="color: white">NSS</h3>                                     
+        </div>                 
         <!-- MIT logo -->
-        <div class="col-1 d-flex justify-content-start align-self-center">
+        <div>
           <img src="public/img/college_logo.png" alt="mit-logo">
         </div>       
-        <div class="col-8 align-self-center" id="nss-nav">
-          <ul>
-            <li class="nav-item dropdown mx-2 fs-5">
-              <a class=" dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                People
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="mx-2 fs-5"><a href="#">Awards</a></li>
-            <li class="nav-item dropdown mx-2 fs-5">
-              <a class=" dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Sessions
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown mx-2 fs-5">
-              <a class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Camps
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class=" mx-2 fs-5"><a href="#">Contact</a></li>
-          </ul>
-        </div>        
-      </div>      
-    </div>
+      </div>
+      <a id="nss-toggle-btn" href="#">
+          <span class="nss-toggle-bar"></span>
+          <span class="nss-toggle-bar"></span>
+          <span class="nss-toggle-bar"></span>
+        </a>
+      <div class="align-self-center" id="nss-nav-links">            
+        <ul>
+          <li class="nav-item dropdown fs-5">
+            <a class=" dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              People
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="fs-5"><a href="#">Awards</a></li>
+          <li class="nav-item dropdown fs-5">
+            <a class=" dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sessions
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown fs-5">
+            <a class="dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Camps
+            </a>
+            <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="fs-5"><a href="#">Contact</a></li>
+        </ul>
+      </div>        
+    </div>      
   </div>
 </div>
+
+<script>
+	const toggleBtn = document.getElementById('nss-toggle-btn');
+	toggleBtn.addEventListener('click', ()=>{
+		document.getElementById('nss-nav-links').classList.toggle('active');
+	})
+</script>
 
 <style>
   #header-section{
     background: rgb(57,66,137);
     background: linear-gradient(90deg, rgba(57,66,137,1) 0%, rgba(74,29,28,1) 50%, rgba(57,66,137,1) 100%);
-    border-radius: 0 0 20% 20%;
   }
-  #nss-nav{
+  #nss-header{
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+  }
+  #nss-brand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #nss-nav-links{
     text-align: right;
   }
- #nss-nav > ul{
+ #nss-nav-links > ul{
    list-style-type: none;
  }
- #nss-nav > ul > li{
+ #nss-nav-links > ul > li{
    display: inline-block;
+   margin: 0 0.5rem;
  }
- #nss-nav >ul > li > a{
+ #nss-nav-links >ul > li > a{
    text-decoration: none;
    color: white;
-   /* color: #303983; */
+ }
+ #nss-toggle-btn{
+	position: absolute;
+	top: 1.3rem;
+	right: 2rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+ }
+ .nss-toggle-bar{
+   background-color: white;
+   height: 1px;
+   border-radius: 20px;
+ }
+ @media (max-width: 992px){
+	#nss-header{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	#nss-nav-links{
+		display: none;
+		text-align: center;
+	}
+	#nss-nav-links.active{
+		display: flex;
+	}
+	#nss-nav-links > ul > li{
+		display: block;
+		margin: 0.5rem 0;
+	}
+	#nss-toggle-btn{
+		display: flex;
+	}
  }
 </style>
